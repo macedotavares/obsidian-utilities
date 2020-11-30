@@ -1,4 +1,5 @@
 # Assorted Obsidian.md utilities
+An [Alfred](https://www.alfredapp.com) workflow focusing on quick entry and logging.
 
 | ⚠️ PLEASE BACKUP YOUR VAULT ⚠️        |
 |:---------------------------|
