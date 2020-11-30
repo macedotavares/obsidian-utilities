@@ -1,9 +1,8 @@
 # Assorted Obsidian.md utilities
 
-⚠️ PLEASE BACKUP YOUR VAULT ⚠️
-I can't stress this enough. Bad things can happen when you manipulate files with poorly tested scripts. I've messed up my own vault many times while testing these actions. Dropbox's history and Git were my friends; they should be yours too.
-
-Ever since I started using Obsidian, I've been setting up some Alfred automations that allow me to use the app more efficiently. The workflow was messy and hardcoded with my own info, but I've cleaned it up and it's ready to share.
+| ⚠️ PLEASE BACKUP YOUR VAULT ⚠️        |
+|:---------------------------|
+| I can't stress this enough. Bad things can happen when you manipulate files with poorly tested scripts. I've messed up my own vault many times while testing these actions. Dropbox's history and Git were my friends; they should be yours too.    |
 
 ## Setup
 
