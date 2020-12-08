@@ -5,9 +5,16 @@ An [Alfred](https://www.alfredapp.com) workflow focusing on quick entry and logg
 |:---------------------------|
 | I can't stress this enough. Bad things can happen when you manipulate files with poorly tested scripts. I've messed up my own vault many times while testing these actions. Dropbox's history and Git were my friends; they should be yours too.    |
 
+## Install
+
+1. Download
+2. Unzip
+3. Double-click the workflow file to install
+
 ## Setup
 
-You must configure the following Environment variables before using the workflow:
+When opening the workflow file in Alfred, a configuration window will appear. 
+You must configure the following Environment variables there, before using the workflow:
 
 ### daily_folder
 The name of the folder where you keep your daily notes (eg. "Dailies").
