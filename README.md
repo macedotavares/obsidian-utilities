@@ -119,6 +119,7 @@ This generates a link, but you can easily turn it into a transclusion by adding 
 
 ### Logged Google Search
 Add it in `Features` → `Setup fallback results` → `+` → `Workflow Trigger`
+
 Logs every Google search you perform in Alfred, under the configured `searches_heading` in the daily note.
 
 ---
