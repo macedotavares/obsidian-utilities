@@ -83,7 +83,8 @@ Each kind of result will have a different icon:
 
 Insert the link by pressing Enter or double-clicking the result.
 
-Cmd+Enter will open the note file in VS Code. (I'm using and external text editor here because I didn't want to replace the active note, and I couldn't find a way of opening a new pane.)
+Cmd+Enter will open the note file in VS Code. (I'm using an external text editor here because I didn't want to replace the active note, and I couldn't find a way of opening a new pane.)
+As usual in Alfred, pressing shift with a result highlighted will quick-look into it.
 
 **Note:** The shortcut will only work when Obsidian is the active application and the focus is on an editor pane.
 
