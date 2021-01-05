@@ -1,20 +1,35 @@
 # Assorted Obsidian.md utilities
-An [Alfred](https://www.alfredapp.com) workflow focusing on quick entry and logging.
 
 | ⚠️ PLEASE BACKUP YOUR VAULT ⚠️        |
 |:---------------------------|
 | I can't stress this enough. Bad things can happen when you manipulate files with poorly tested scripts. I've messed up my own vault many times while testing these actions. Dropbox's history and Git were my friends; they should be yours too.    |
 
+This is an [Alfred](https://alfredapp.com) workflow containing various actions that help you interact with [Obsidian](https://obsidian.md). 
+
+---
+
+## Release Notes
+
+### What's changed
+- The worklow does not assume the vault is inside your home folder anymore. `vault_path` must now be a full, absolute path.
+
+### What's new
+- The `clip` action now works with Google Chrome. (Thanks for the AppleScript, @alvaroybanez!) Don't forget to change the `default_browser` environment variable if you want to use that instead of Safari.
+
+---
+
 ## Install
 
-1. Download
-2. Unzip
-3. Double-click the workflow file to install
+1. Download [this file](https://github.com/macedotavares/obsidian-utilities/releases/download/v2.0.0/Obsidian.Utilities.alfredworkflow).
+2. Double-click on it.
+
+---
 
 ## Setup
+You must configure the following environment variables before using the workflow:
 
-When opening the workflow file in Alfred, a configuration window will appear. 
-You must configure the following Environment variables there, before using the workflow:
+### browser
+`Safari` is the default. Replace that with `Google Chrome` to switch browsers.
 
 ### daily_folder
 The name of the folder where you keep your daily notes (eg. "Dailies").
@@ -46,13 +61,31 @@ This allows you to have other headings for differente task groups, like "Done" o
 The name of your vault (obsidian's root folder name). (eg. "Notes")
 
 ### vault_path
-The path to your vault. This workflow assumes that your vault resides somewhere inside your home folder. However, the home segment must be ommited.
+The path to your vault.
 
-Example:
+Examples:
 
-If your vault is in "/Users/yourname/Dropbox/Notes", you should set vault_path to "/Dropbox/Notes" (without quotes).
+- "/Users/yourname/Dropbox/Notes"
+- "~/Dropbox/Notes"
+- "/Volumes/NAS/Notes
+
+---
 
 ## Usage
+
+### Cmd+Shift+L  [search terms] (Global Search & Linking)
+This action goes through all your notes and returns a list of titles, headings and/or blocks that fuzzy match the terms you entered, allowing you to **immediatelly link** to them.
+
+Each kind of result will have a different icon:
+- `[[]]` for note titles
+- `#` for headings
+- `^` for blocks/lines
+
+Insert the link by pressing Enter or double-clicking the result.
+
+Cmd+Enter will open the note file in VS Code. (I'm using and external text editor here because I didn't want to replace the active note, and I couldn't find a way of opening a new pane.)
+
+**Note:** The shortcut will only work when Obsidian is the active application and the focus is on an editor pane.
 
 ### v (no arguments)
 Open vault folder in VS Code
@@ -72,7 +105,7 @@ Appends tasks to tasks file, under the configured heading. Prefixes tasks with d
 Transcludes task in the daily note. Adds task tag. Date is ommited.
 
 ### Cmd+Shift+R (block referencing helper)
-I use this when I'm already looking at the block I wish to reference, bypassing the need to go elsewhere and rely on Obsidian's autocomplete.
+You can use this when you're already looking at the block you wish to reference, bypassing the need to go elsewhere and rely on Obsidian's autocomplete.
 
 1. Place the cursor at the end of the block you wish to reference
 2. Use the shortcut. A reference code is added at the cursor position.
@@ -90,5 +123,7 @@ Logs every Google search you perform in Alfred, under the configured `searches_h
 
 ---
 
+
 ## Feedback
+
 I'm macedotavares over at the Obsidian forum. Feel free to PM me for whatever reason.
