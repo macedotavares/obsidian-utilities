@@ -8,7 +8,7 @@ This is an [Alfred](https://alfredapp.com) workflow containing various actions t
 
 ---
 
-## Release Notes
+## Release Notes (v2.0.0)
 
 ### What's changed
 - The worklow does not assume the vault is inside your home folder anymore. `vault_path` must now be a full, absolute path.
