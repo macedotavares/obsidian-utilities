@@ -128,4 +128,4 @@ Logs every Google search you perform in Alfred, under the configured `searches_h
 
 ## Feedback
 
-I'm macedotavares over at the Obsidian forum. Feel free to PM me for whatever reason.
+I'm [macedotavares](https://forum.obsidian.md/u/macedotavares/summary) over at the Obsidian forum. Feel free to PM me for whatever reason.
