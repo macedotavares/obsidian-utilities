@@ -21,7 +21,7 @@ This is an [Alfred](https://alfredapp.com) workflow containing various actions t
 ## Install
 
 1. Download [this file](https://github.com/macedotavares/obsidian-utilities/releases/download/v2.0.0/Obsidian.Utilities.alfredworkflow).
-2. Double-click on it.
+2. Open it.
 
 ---
 
