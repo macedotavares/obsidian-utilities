@@ -21,7 +21,7 @@ This is an [Alfred](https://alfredapp.com) workflow containing various actions t
 ## Install
 
 1. Download [this file](https://github.com/macedotavares/obsidian-utilities/releases/download/v2.0.0/Obsidian.Utilities.alfredworkflow).
-2. Double-click on it.
+2. Open it.
 
 ---
 
@@ -125,7 +125,9 @@ Logs every Google search you perform in Alfred, under the configured `searches_h
 
 ---
 
+## Updates
+I'll fix things occasionally, in small batches. New features usually take longer.
+Check the [Github repository](https://github.com/macedotavares/obsidian-utilities) for updates and source code.
 
 ## Feedback
-
-I'm [macedotavares](https://forum.obsidian.md/u/macedotavares/summary) over at the Obsidian forum. Feel free to PM me for whatever reason.
+Found a bug? Want to make a suggestion? [Open an issue](https://github.com/macedotavares/obsidian-utilities/issues/new) or [PM me in the Obsidian forum](https://forum.obsidian.md/u/macedotavares/summary).
