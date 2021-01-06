@@ -130,5 +130,4 @@ I'll fix things occasionally, in small batches. New features usually take longer
 Check the [Github repository](https://github.com/macedotavares/obsidian-utilities) for updates and source code.
 
 ## Feedback
-
-I'm [macedotavares](https://forum.obsidian.md/u/macedotavares/summary) over at the Obsidian forum. Feel free to PM me for whatever reason.
+Found a bug? Want to make a suggestion? [Open an issue](https://github.com/macedotavares/obsidian-utilities/issues/new) or PM me in the Obsidian forum. I'm [macedotavares](https://forum.obsidian.md/u/macedotavares/summary).
