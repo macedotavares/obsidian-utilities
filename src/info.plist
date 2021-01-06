@@ -2624,7 +2624,7 @@ This is an [Alfred](https://alfredapp.com) workflow containing various actions t
 
 ---
 
-## Release Notes
+## Release Notes (v2.0.0)
 
 ### What's changed
 - The worklow does not assume the vault is inside your home folder anymore. `vault_path` must now be a full, absolute path.
@@ -2637,7 +2637,7 @@ This is an [Alfred](https://alfredapp.com) workflow containing various actions t
 ## Install
 
 1. Download [this file](https://github.com/macedotavares/obsidian-utilities/releases/download/v2.0.0/Obsidian.Utilities.alfredworkflow).
-2. Double-click on it.
+2. Open it.
 
 ---
 
@@ -2699,7 +2699,8 @@ Each kind of result will have a different icon:
 
 Insert the link by pressing Enter or double-clicking the result.
 
-Cmd+Enter will open the note file in VS Code. (I'm using and external text editor here because I didn't want to replace the active note, and I couldn't find a way of opening a new pane.)
+Cmd+Enter will open the note file in VS Code. (I'm using an external text editor here because I didn't want to replace the active note, and I couldn't find a way of opening a new pane.)
+As usual in Alfred, pressing shift with a result highlighted will quick-look into it.
 
 **Note:** The shortcut will only work when Obsidian is the active application and the focus is on an editor pane.
 
@@ -2735,14 +2736,17 @@ This generates a link, but you can easily turn it into a transclusion by adding 
 
 ### Logged Google Search
 Add it in `Features` → `Setup fallback results` → `+` → `Workflow Trigger`
+
 Logs every Google search you perform in Alfred, under the configured `searches_heading` in the daily note.
 
 ---
 
+## Updates
+I'll fix things occasionally, in small batches. New features usually take longer.
+Check the [Github repository](https://github.com/macedotavares/obsidian-utilities) for updates and source code.
 
 ## Feedback
-
-I'm macedotavares over at the Obsidian forum. Feel free to PM me for whatever reason.</string>
+Found a bug? Want to make a suggestion? [Open an issue](https://github.com/macedotavares/obsidian-utilities/issues/new) or [PM me in the Obsidian forum](https://forum.obsidian.md/u/macedotavares/summary).</string>
 	<key>uidata</key>
 	<dict>
 		<key>05D670E2-E454-449E-AE4E-D584071A36CA</key>
@@ -3425,13 +3429,13 @@ Output:
 		<string>tasks_heading</string>
 		<string>task_tag</string>
 		<string>daily_folder</string>
-		<string>vault_name</string>
+		<string>vault_path</string>
 		<string>journal_tag</string>
 		<string>title</string>
 		<string>searches_heading</string>
-		<string>url</string>
 		<string>tasks_file</string>
-		<string>vault_path</string>
+		<string>vault_name</string>
+		<string>url</string>
 	</array>
 	<key>version</key>
 	<string>2.0.0</string>
