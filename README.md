@@ -8,12 +8,13 @@ This is an [Alfred](https://alfredapp.com) workflow containing various actions t
 
 ---
 
-## Release Notes (v2.0.0)
+## Release Notes
 
 ### What's changed
 - The worklow does not assume the vault is inside your home folder anymore. `vault_path` must now be a full, absolute path.
 
 ### What's new
+- There's a new Global Search feature that searches all your vault and automatically inserts links to found notes, headers or blocks.
 - The `clip` action now works with Google Chrome. (Thanks for the AppleScript, @alvaroybanez!) Don't forget to change the `default_browser` environment variable if you want to use that instead of Safari.
 
 ---
