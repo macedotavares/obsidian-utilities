@@ -125,6 +125,9 @@ Logs every Google search you perform in Alfred, under the configured `searches_h
 
 ---
 
+## Updates
+I'll fix things occasionally, in small batches. New features usually take longer.
+Check the [Github repository](https://github.com/macedotavares/obsidian-utilities) for updates and source code.
 
 ## Feedback
 
