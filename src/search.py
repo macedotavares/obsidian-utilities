@@ -77,9 +77,12 @@ for root, dirs, files in os.walk(rootdir):
 				# Blocks
 					
 				else:
-					
-					# Generate reference code
-					ref_code = get_random_alphanumeric_string(6)
+					existing_code = re.findall(r'\^[\w\d]{6}', line)
+					if existing_code:
+						ref_code = existing_code[0][1:]
+					else:
+						# Generate reference code
+						ref_code = get_random_alphanumeric_string(6)
 
 					# append (title, match, icon, arg, quicklook) to json
 					append_json(

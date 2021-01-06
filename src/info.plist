@@ -96,6 +96,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>288E86FB-F6DC-4646-8EB2-51F5D7AB625E</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>842DFD13-5DC7-45D5-AED4-A6A728D68732</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>32C29380-4EBC-4BCA-917C-038BCAB23913</key>
 		<array>
 			<dict>
@@ -353,6 +366,31 @@
 				<false/>
 			</dict>
 		</array>
+		<key>859D4FEC-D9E0-4F04-8F1F-B97A01A507ED</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>842DFD13-5DC7-45D5-AED4-A6A728D68732</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>9BCC52D2-50E8-4296-95CD-1F8C2F5E4284</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>F4EA825B-1037-42A1-B92F-6C44B8CCEFC0</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>8806C488-438C-4271-9E2A-3282C64F9C24</key>
 		<array>
 			<dict>
@@ -421,7 +459,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>F4EA825B-1037-42A1-B92F-6C44B8CCEFC0</string>
+				<string>859D4FEC-D9E0-4F04-8F1F-B97A01A507ED</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -723,7 +761,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>FEFA1B6F-755C-43BE-B20D-9872913B1CE3</string>
+				<string>288E86FB-F6DC-4646-8EB2-51F5D7AB625E</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -763,19 +801,6 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>93EA1574-ED7A-470D-9BC2-DEBC2A05F0DD</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-		<key>FEFA1B6F-755C-43BE-B20D-9872913B1CE3</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>4B4BD7D9-BD33-4ABD-924E-65403AA4FF9B</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -2196,21 +2221,6 @@ echo "$(cat "$expanded")"</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>openwith</key>
-				<string>~/Applications/Visual Studio Code.app</string>
-				<key>sourcefile</key>
-				<string>{var:file}</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openfile</string>
-			<key>uid</key>
-			<string>C3914442-A188-4048-93A5-585CBACE7992</string>
-			<key>version</key>
-			<integer>3</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>autopaste</key>
 				<true/>
 				<key>clipboardtext</key>
@@ -2223,7 +2233,96 @@ echo "$(cat "$expanded")"</string>
 			<key>type</key>
 			<string>alfred.workflow.output.clipboard</string>
 			<key>uid</key>
-			<string>4B4BD7D9-BD33-4ABD-924E-65403AA4FF9B</string>
+			<string>842DFD13-5DC7-45D5-AED4-A6A728D68732</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:line}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>4</integer>
+						<key>matchstring</key>
+						<string>\^{var:code}</string>
+						<key>outputlabel</key>
+						<string>keep existing code</string>
+						<key>uid</key>
+						<string>9BCC52D2-50E8-4296-95CD-1F8C2F5E4284</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>insert code</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>859D4FEC-D9E0-4F04-8F1F-B97A01A507ED</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>adduuid</key>
+				<false/>
+				<key>allowemptyfiles</key>
+				<true/>
+				<key>createintermediatefolders</key>
+				<false/>
+				<key>filename</key>
+				<string>{var:file}</string>
+				<key>filetext</key>
+				<string>{query}</string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
+				<key>relativepathmode</key>
+				<integer>0</integer>
+				<key>type</key>
+				<integer>1</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.writefile</string>
+			<key>uid</key>
+			<string>288E86FB-F6DC-4646-8EB2-51F5D7AB625E</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>matchmode</key>
+				<integer>0</integer>
+				<key>matchstring</key>
+				<string>{var:line}</string>
+				<key>replacestring</key>
+				<string>{var:line.trim} ^{var:code}</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.replace</string>
+			<key>uid</key>
+			<string>F4EA825B-1037-42A1-B92F-6C44B8CCEFC0</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>openwith</key>
+				<string>~/Applications/Visual Studio Code.app</string>
+				<key>sourcefile</key>
+				<string>{var:file}</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openfile</string>
+			<key>uid</key>
+			<string>C3914442-A188-4048-93A5-585CBACE7992</string>
 			<key>version</key>
 			<integer>3</integer>
 		</dict>
@@ -2253,33 +2352,6 @@ echo "$(cat "$expanded")"</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>adduuid</key>
-				<false/>
-				<key>allowemptyfiles</key>
-				<true/>
-				<key>createintermediatefolders</key>
-				<false/>
-				<key>filename</key>
-				<string>{var:file}</string>
-				<key>filetext</key>
-				<string>{query}</string>
-				<key>ignoredynamicplaceholders</key>
-				<false/>
-				<key>relativepathmode</key>
-				<integer>0</integer>
-				<key>type</key>
-				<integer>1</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.writefile</string>
-			<key>uid</key>
-			<string>FEFA1B6F-755C-43BE-B20D-9872913B1CE3</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>argument</key>
 				<string>{var:file}</string>
 				<key>passthroughargument</key>
@@ -2293,23 +2365,6 @@ echo "$(cat "$expanded")"</string>
 			<string>FCB22FD8-98D4-407E-9E3D-68F07EE612FC</string>
 			<key>version</key>
 			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>matchmode</key>
-				<integer>0</integer>
-				<key>matchstring</key>
-				<string>{var:line}</string>
-				<key>replacestring</key>
-				<string>{var:line.trim} ^{var:code}</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.replace</string>
-			<key>uid</key>
-			<string>F4EA825B-1037-42A1-B92F-6C44B8CCEFC0</string>
-			<key>version</key>
-			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -2753,6 +2808,15 @@ I'm macedotavares over at the Obsidian forum. Feel free to PM me for whatever re
 			<key>ypos</key>
 			<integer>2930</integer>
 		</dict>
+		<key>288E86FB-F6DC-4646-8EB2-51F5D7AB625E</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>1</integer>
+			<key>xpos</key>
+			<integer>1530</integer>
+			<key>ypos</key>
+			<integer>2685</integer>
+		</dict>
 		<key>3091A493-D20A-470F-A937-405EA5426B99</key>
 		<dict>
 			<key>colorindex</key>
@@ -2890,15 +2954,6 @@ Output:
 			<key>ypos</key>
 			<integer>1015</integer>
 		</dict>
-		<key>4B4BD7D9-BD33-4ABD-924E-65403AA4FF9B</key>
-		<dict>
-			<key>colorindex</key>
-			<integer>3</integer>
-			<key>xpos</key>
-			<integer>1460</integer>
-			<key>ypos</key>
-			<integer>2755</integer>
-		</dict>
 		<key>4C57721B-F4C4-4F6F-874C-B788549A64F7</key>
 		<dict>
 			<key>xpos</key>
@@ -3025,6 +3080,15 @@ Output:
 			<key>ypos</key>
 			<integer>735</integer>
 		</dict>
+		<key>842DFD13-5DC7-45D5-AED4-A6A728D68732</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>3</integer>
+			<key>xpos</key>
+			<integer>1735</integer>
+			<key>ypos</key>
+			<integer>2560</integer>
+		</dict>
 		<key>842FD278-7B3D-4858-A6B7-9156D84E2229</key>
 		<dict>
 			<key>colorindex</key>
@@ -3035,6 +3099,15 @@ Output:
 			<integer>865</integer>
 			<key>ypos</key>
 			<integer>170</integer>
+		</dict>
+		<key>859D4FEC-D9E0-4F04-8F1F-B97A01A507ED</key>
+		<dict>
+			<key>note</key>
+			<string>check if line has already been referenced somewhere else</string>
+			<key>xpos</key>
+			<integer>1235</integer>
+			<key>ypos</key>
+			<integer>2595</integer>
 		</dict>
 		<key>87A3A9AF-2EE6-45D6-B773-10B234EA02B1</key>
 		<dict>
@@ -3281,10 +3354,12 @@ Output:
 		</dict>
 		<key>F4EA825B-1037-42A1-B92F-6C44B8CCEFC0</key>
 		<dict>
+			<key>note</key>
+			<string>insert reference code</string>
 			<key>xpos</key>
-			<integer>1190</integer>
+			<integer>1430</integer>
 			<key>ypos</key>
-			<integer>2785</integer>
+			<integer>2715</integer>
 		</dict>
 		<key>FC50A564-044C-4F33-96C8-589521AF9178</key>
 		<dict>
@@ -3319,20 +3394,11 @@ Output:
 			<key>ypos</key>
 			<integer>1010</integer>
 		</dict>
-		<key>FEFA1B6F-755C-43BE-B20D-9872913B1CE3</key>
-		<dict>
-			<key>colorindex</key>
-			<integer>1</integer>
-			<key>xpos</key>
-			<integer>1290</integer>
-			<key>ypos</key>
-			<integer>2755</integer>
-		</dict>
 	</dict>
 	<key>variables</key>
 	<dict>
 		<key>browser</key>
-		<string></string>
+		<string>Safari</string>
 		<key>daily_folder</key>
 		<string></string>
 		<key>journal_tag</key>
@@ -3359,14 +3425,13 @@ Output:
 		<string>tasks_heading</string>
 		<string>task_tag</string>
 		<string>daily_folder</string>
-		<string>url</string>
+		<string>vault_name</string>
 		<string>journal_tag</string>
 		<string>title</string>
 		<string>searches_heading</string>
-		<string>vault_path</string>
-		<string>browser</string>
+		<string>url</string>
 		<string>tasks_file</string>
-		<string>vault_name</string>
+		<string>vault_path</string>
 	</array>
 	<key>version</key>
 	<string>2.0.0</string>
