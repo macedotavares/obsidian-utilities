@@ -122,13 +122,11 @@
 				<false/>
 			</dict>
 		</array>
-		<key>3529010F-EA59-4AB8-BEEA-8212DADC59BF</key>
-		<array/>
 		<key>375E7C03-7400-49EF-9797-1B94D5395393</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>3529010F-EA59-4AB8-BEEA-8212DADC59BF</string>
+				<string>2FAFA328-13EB-4A36-AF01-1B48832B413E</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -138,11 +136,11 @@
 			</dict>
 			<dict>
 				<key>destinationuid</key>
-				<string>3BFEAC8C-B80E-4722-94B6-86E14125AC76</string>
+				<string>83A078F5-6EBC-44DA-AFCB-F90B9769A55A</string>
 				<key>modifiers</key>
 				<integer>1048576</integer>
 				<key>modifiersubtext</key>
-				<string>Open in Finder</string>
+				<string></string>
 				<key>vitoclose</key>
 				<false/>
 			</dict>
@@ -334,6 +332,29 @@
 				<string>A52E3728-4AFF-4A73-A364-370836A29175</string>
 				<key>modifiers</key>
 				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>787A7006-D0F5-4868-840F-405A1D1FF2BE</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>E9EE3256-7694-44A4-B076-BDDAC5002701</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>A77A1308-A928-4920-9889-C67E16B2E41A</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
 				<key>modifiersubtext</key>
 				<string></string>
 				<key>vitoclose</key>
@@ -682,29 +703,6 @@
 				<false/>
 			</dict>
 		</array>
-		<key>E346DCA8-1B53-47FC-A8C0-D11955B711AD</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>1425E6AB-E66B-4D3B-9C97-BE3C0C2D0362</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>842FD278-7B3D-4858-A6B7-9156D84E2229</string>
-				<key>modifiers</key>
-				<integer>1048576</integer>
-				<key>modifiersubtext</key>
-				<string>Open in VS Code</string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
 		<key>E36B0FBB-A8B4-4E0D-9D1D-55CBDEA71908</key>
 		<array>
 			<dict>
@@ -823,6 +821,21 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>openwith</key>
+				<string>~/Applications/Visual Studio Code.app</string>
+				<key>sourcefile</key>
+				<string>{var:vault_path}</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openfile</string>
+			<key>uid</key>
+			<string>2FAFA328-13EB-4A36-AF01-1B48832B413E</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>browser</key>
 				<string></string>
 				<key>spaces</key>
@@ -835,128 +848,9 @@
 			<key>type</key>
 			<string>alfred.workflow.action.openurl</string>
 			<key>uid</key>
-			<string>1425E6AB-E66B-4D3B-9C97-BE3C0C2D0362</string>
+			<string>E9EE3256-7694-44A4-B076-BDDAC5002701</string>
 			<key>version</key>
 			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>openwith</key>
-				<string>~/Applications/Visual Studio Code.app</string>
-				<key>sourcefile</key>
-				<string>{var:vault_path}</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openfile</string>
-			<key>uid</key>
-			<string>3529010F-EA59-4AB8-BEEA-8212DADC59BF</string>
-			<key>version</key>
-			<integer>3</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>anchorfields</key>
-				<true/>
-				<key>argumenttrimmode</key>
-				<integer>0</integer>
-				<key>argumenttype</key>
-				<integer>0</integer>
-				<key>daterange</key>
-				<integer>0</integer>
-				<key>fields</key>
-				<array>
-					<dict>
-						<key>field</key>
-						<string>kMDItemDisplayName</string>
-						<key>not</key>
-						<false/>
-						<key>split</key>
-						<true/>
-						<key>value</key>
-						<string>{query}</string>
-						<key>words</key>
-						<true/>
-					</dict>
-					<dict>
-						<key>field</key>
-						<string>kMDItemAlternateNames</string>
-						<key>not</key>
-						<false/>
-						<key>split</key>
-						<true/>
-						<key>value</key>
-						<string>{query}</string>
-						<key>words</key>
-						<true/>
-					</dict>
-					<dict>
-						<key>field</key>
-						<string>kMDItemFinderComment</string>
-						<key>not</key>
-						<false/>
-						<key>split</key>
-						<true/>
-						<key>value</key>
-						<string>{query}</string>
-						<key>words</key>
-						<true/>
-					</dict>
-					<dict>
-						<key>field</key>
-						<string>kMDItemTextContent</string>
-						<key>not</key>
-						<false/>
-						<key>split</key>
-						<true/>
-						<key>value</key>
-						<string>{query}</string>
-						<key>words</key>
-						<true/>
-					</dict>
-					<dict>
-						<key>field</key>
-						<string>kMDItemTitle</string>
-						<key>not</key>
-						<false/>
-						<key>split</key>
-						<true/>
-						<key>value</key>
-						<string>{query}</string>
-						<key>words</key>
-						<true/>
-					</dict>
-				</array>
-				<key>includesystem</key>
-				<false/>
-				<key>keyword</key>
-				<string>s</string>
-				<key>limit</key>
-				<integer>0</integer>
-				<key>runningsubtext</key>
-				<string></string>
-				<key>scopes</key>
-				<array>
-					<string>~/Dropbox/Notas</string>
-				</array>
-				<key>sortmode</key>
-				<integer>0</integer>
-				<key>subtext</key>
-				<string></string>
-				<key>title</key>
-				<string>Search Obsidian notes for "{query}"</string>
-				<key>types</key>
-				<array/>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.filefilter</string>
-			<key>uid</key>
-			<string>E346DCA8-1B53-47FC-A8C0-D11955B711AD</string>
-			<key>version</key>
-			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -968,7 +862,7 @@
 				<key>subtext</key>
 				<string></string>
 				<key>text</key>
-				<string>Open vault in VS Code</string>
+				<string>Open vault in Text Editor</string>
 				<key>withspace</key>
 				<false/>
 			</dict>
@@ -982,15 +876,77 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>openwith</key>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>s</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
 				<string></string>
-				<key>sourcefile</key>
-				<string>{var:vault_path}</string>
+				<key>script</key>
+				<string>query=$1
+
+originalpath="$vault_path"
+user="$(eval echo ~$USER)"
+
+expanded=${originalpath/\~/"$user"} 
+
+results="$(mdfind -onlyin "$expanded" "$query")"
+
+json_obj=("items:":[])
+
+for 
+
+cat &lt;&lt; EOB
+{"items": [
+	{
+		"uid": "desktop",
+		"type": "file",
+		"title": "Desktop",
+		"subtitle": "~/Desktop",
+		"arg": "~/Desktop",
+		"autocomplete": "Desktop",
+		"icon": {
+			"type": "fileicon",
+			"path": "~/Desktop"
+		}
+	}
+]
+EOB</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string>mdfind.py</string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>Search Obsidian for "{query}"</string>
+				<key>type</key>
+				<integer>8</integer>
+				<key>withspace</key>
+				<true/>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.action.openfile</string>
+			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
-			<string>3BFEAC8C-B80E-4722-94B6-86E14125AC76</string>
+			<string>787A7006-D0F5-4868-840F-405A1D1FF2BE</string>
 			<key>version</key>
 			<integer>3</integer>
 		</dict>
@@ -1000,12 +956,27 @@
 				<key>openwith</key>
 				<string>~/Applications/Visual Studio Code.app</string>
 				<key>sourcefile</key>
-				<string></string>
+				<string>{var:vault_path}</string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.action.openfile</string>
 			<key>uid</key>
-			<string>842FD278-7B3D-4858-A6B7-9156D84E2229</string>
+			<string>83A078F5-6EBC-44DA-AFCB-F90B9769A55A</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>openwith</key>
+				<string>~/Applications/Visual Studio Code.app</string>
+				<key>sourcefile</key>
+				<string>{query}</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openfile</string>
+			<key>uid</key>
+			<string>A77A1308-A928-4920-9889-C67E16B2E41A</string>
 			<key>version</key>
 			<integer>3</integer>
 		</dict>
@@ -1804,9 +1775,9 @@ sys.stdout.write(result)</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
-				<string></string>
+				<string>html2md.py</string>
 				<key>type</key>
-				<integer>3</integer>
+				<integer>8</integer>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.action.script</string>
@@ -2164,7 +2135,7 @@ user="$(eval echo ~$USER)"
 
 expanded=${originalpath/\~/"$user"} 
 
-echo "$(cat "$expanded")"</string>
+echo -n "$(cat "$expanded")"</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
@@ -2314,27 +2285,12 @@ echo "$(cat "$expanded")"</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>openwith</key>
-				<string>~/Applications/Visual Studio Code.app</string>
-				<key>sourcefile</key>
-				<string>{var:file}</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openfile</string>
-			<key>uid</key>
-			<string>C3914442-A188-4048-93A5-585CBACE7992</string>
-			<key>version</key>
-			<integer>3</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>concurrently</key>
 				<false/>
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>script</key>
-				<string>echo "$(cat "$1")"</string>
+				<string>echo -n "$(cat "$1")"</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
@@ -2348,6 +2304,21 @@ echo "$(cat "$expanded")"</string>
 			<string>93C4A7B2-9D4A-40B6-838C-A53DE399D7A7</string>
 			<key>version</key>
 			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>openwith</key>
+				<string>~/Applications/Visual Studio Code.app</string>
+				<key>sourcefile</key>
+				<string>{var:file}</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openfile</string>
+			<key>uid</key>
+			<string>C3914442-A188-4048-93A5-585CBACE7992</string>
+			<key>version</key>
+			<integer>3</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -2624,7 +2595,14 @@ This is an [Alfred](https://alfredapp.com) workflow containing various actions t
 
 ---
 
-## Release Notes (v2.0.0)
+## Release Notes
+
+### v2.0.1
+- Fixed hardcoded scope in `s` search.
+- Fixed markdown `clip`ing.
+
+
+### v2.0.0
 
 ### What's changed
 - The worklow does not assume the vault is inside your home folder anymore. `vault_path` must now be a full, absolute path.
@@ -2769,17 +2747,6 @@ Found a bug? Want to make a suggestion? [Open an issue](https://github.com/maced
 			<key>ypos</key>
 			<integer>1000</integer>
 		</dict>
-		<key>1425E6AB-E66B-4D3B-9C97-BE3C0C2D0362</key>
-		<dict>
-			<key>colorindex</key>
-			<integer>10</integer>
-			<key>note</key>
-			<string>Open note in Obsidian</string>
-			<key>xpos</key>
-			<integer>865</integer>
-			<key>ypos</key>
-			<integer>10</integer>
-		</dict>
 		<key>1F97B6FF-419E-420E-A684-9BCE501C4B4B</key>
 		<dict>
 			<key>note</key>
@@ -2821,6 +2788,15 @@ Found a bug? Want to make a suggestion? [Open an issue](https://github.com/maced
 			<key>ypos</key>
 			<integer>2685</integer>
 		</dict>
+		<key>2FAFA328-13EB-4A36-AF01-1B48832B413E</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>11</integer>
+			<key>xpos</key>
+			<integer>345</integer>
+			<key>ypos</key>
+			<integer>10</integer>
+		</dict>
 		<key>3091A493-D20A-470F-A937-405EA5426B99</key>
 		<dict>
 			<key>colorindex</key>
@@ -2848,15 +2824,6 @@ Found a bug? Want to make a suggestion? [Open an issue](https://github.com/maced
 			<key>ypos</key>
 			<integer>390</integer>
 		</dict>
-		<key>3529010F-EA59-4AB8-BEEA-8212DADC59BF</key>
-		<dict>
-			<key>colorindex</key>
-			<integer>11</integer>
-			<key>xpos</key>
-			<integer>315</integer>
-			<key>ypos</key>
-			<integer>25</integer>
-		</dict>
 		<key>375E7C03-7400-49EF-9797-1B94D5395393</key>
 		<dict>
 			<key>note</key>
@@ -2876,15 +2843,6 @@ Found a bug? Want to make a suggestion? [Open an issue](https://github.com/maced
 			<integer>1040</integer>
 			<key>ypos</key>
 			<integer>1000</integer>
-		</dict>
-		<key>3BFEAC8C-B80E-4722-94B6-86E14125AC76</key>
-		<dict>
-			<key>colorindex</key>
-			<integer>11</integer>
-			<key>xpos</key>
-			<integer>315</integer>
-			<key>ypos</key>
-			<integer>155</integer>
 		</dict>
 		<key>3D4ECDDA-0A3F-4269-84FE-7330C71EA836</key>
 		<dict>
@@ -3061,6 +3019,13 @@ Output:
 			<key>ypos</key>
 			<integer>1840</integer>
 		</dict>
+		<key>787A7006-D0F5-4868-840F-405A1D1FF2BE</key>
+		<dict>
+			<key>xpos</key>
+			<integer>795</integer>
+			<key>ypos</key>
+			<integer>85</integer>
+		</dict>
 		<key>789CB64F-E033-4297-ACC3-D392B6F76ACE</key>
 		<dict>
 			<key>xpos</key>
@@ -3084,6 +3049,15 @@ Output:
 			<key>ypos</key>
 			<integer>735</integer>
 		</dict>
+		<key>83A078F5-6EBC-44DA-AFCB-F90B9769A55A</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>11</integer>
+			<key>xpos</key>
+			<integer>345</integer>
+			<key>ypos</key>
+			<integer>195</integer>
+		</dict>
 		<key>842DFD13-5DC7-45D5-AED4-A6A728D68732</key>
 		<dict>
 			<key>colorindex</key>
@@ -3092,17 +3066,6 @@ Output:
 			<integer>1735</integer>
 			<key>ypos</key>
 			<integer>2560</integer>
-		</dict>
-		<key>842FD278-7B3D-4858-A6B7-9156D84E2229</key>
-		<dict>
-			<key>colorindex</key>
-			<integer>11</integer>
-			<key>note</key>
-			<string>Open file in VS Code</string>
-			<key>xpos</key>
-			<integer>865</integer>
-			<key>ypos</key>
-			<integer>170</integer>
 		</dict>
 		<key>859D4FEC-D9E0-4F04-8F1F-B97A01A507ED</key>
 		<dict>
@@ -3244,6 +3207,15 @@ Output:
 			<key>ypos</key>
 			<integer>1730</integer>
 		</dict>
+		<key>A77A1308-A928-4920-9889-C67E16B2E41A</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>11</integer>
+			<key>xpos</key>
+			<integer>1050</integer>
+			<key>ypos</key>
+			<integer>225</integer>
+		</dict>
 		<key>AA579910-CA2C-4A70-BE9E-BF637B63BCB6</key>
 		<dict>
 			<key>note</key>
@@ -3269,9 +3241,9 @@ Output:
 			<key>colorindex</key>
 			<integer>11</integer>
 			<key>xpos</key>
-			<integer>590</integer>
+			<integer>600</integer>
 			<key>ypos</key>
-			<integer>2740</integer>
+			<integer>2770</integer>
 		</dict>
 		<key>CA63B28D-B768-4533-90B5-6FB74A30DDD7</key>
 		<dict>
@@ -3315,15 +3287,6 @@ Output:
 			<key>ypos</key>
 			<integer>390</integer>
 		</dict>
-		<key>E346DCA8-1B53-47FC-A8C0-D11955B711AD</key>
-		<dict>
-			<key>note</key>
-			<string>Search notes</string>
-			<key>xpos</key>
-			<integer>610</integer>
-			<key>ypos</key>
-			<integer>75</integer>
-		</dict>
 		<key>E36B0FBB-A8B4-4E0D-9D1D-55CBDEA71908</key>
 		<dict>
 			<key>note</key>
@@ -3346,6 +3309,17 @@ Output:
 			<integer>195</integer>
 			<key>ypos</key>
 			<integer>420</integer>
+		</dict>
+		<key>E9EE3256-7694-44A4-B076-BDDAC5002701</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>10</integer>
+			<key>note</key>
+			<string>Open note in Obsidian</string>
+			<key>xpos</key>
+			<integer>995</integer>
+			<key>ypos</key>
+			<integer>25</integer>
 		</dict>
 		<key>EE2F54FB-7F52-47C0-BAB5-C22C3F7EB12B</key>
 		<dict>
@@ -3438,7 +3412,7 @@ Output:
 		<string>url</string>
 	</array>
 	<key>version</key>
-	<string>2.0.0</string>
+	<string>2.0.1</string>
 	<key>webaddress</key>
 	<string>https://forum.obsidian.md/u/macedotavares/summary</string>
 </dict>

@@ -1,10 +1,10 @@
 import argparse
-import sys
 
-from . import HTML2Text, __version__, config
+from html2text import HTML2Text, __version__, config
+from html2text.utils import wrap_read, wrapwrite
 
 
-def main() -> None:
+def main():
     baseurl = ""
 
     class bcolors:
@@ -256,10 +256,10 @@ def main() -> None:
         with open(args.filename, "rb") as fp:
             data = fp.read()
     else:
-        data = sys.stdin.buffer.read()
+        data = wrap_read()
 
     try:
-        html = data.decode(args.encoding, args.decode_errors)
+        data = data.decode(args.encoding, args.decode_errors)
     except UnicodeDecodeError as err:
         warning = bcolors.WARNING + "Warning:" + bcolors.ENDC
         warning += " Use the " + bcolors.OKGREEN
@@ -303,4 +303,4 @@ def main() -> None:
     h.open_quote = args.open_quote
     h.close_quote = args.close_quote
 
-    sys.stdout.write(h.handle(html))
+    wrapwrite(h.handle(data))

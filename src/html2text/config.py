@@ -1,3 +1,5 @@
+from __future__ import unicode_literals
+
 import re
 
 # Use Unicode characters instead of their ascii pseudo-replacements
