@@ -868,7 +868,7 @@
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>keyword</key>
-				<string>st</string>
+				<string>s</string>
 				<key>queuedelaycustom</key>
 				<integer>3</integer>
 				<key>queuedelayimmediatelyinitially</key>
@@ -907,7 +907,7 @@ echo "$json_obj"</string>
 				<key>subtext</key>
 				<string></string>
 				<key>title</key>
-				<string>search test</string>
+				<string>Search Obsidian for "{query}"</string>
 				<key>type</key>
 				<integer>5</integer>
 				<key>withspace</key>
@@ -3398,13 +3398,13 @@ Output:
 		<string>tasks_heading</string>
 		<string>task_tag</string>
 		<string>daily_folder</string>
-		<string>vault_path</string>
+		<string>vault_name</string>
 		<string>journal_tag</string>
 		<string>title</string>
-		<string>tasks_file</string>
-		<string>vault_name</string>
 		<string>searches_heading</string>
 		<string>url</string>
+		<string>tasks_file</string>
+		<string>vault_path</string>
 	</array>
 	<key>version</key>
 	<string>2.0.2</string>
