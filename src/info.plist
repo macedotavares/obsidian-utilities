@@ -145,6 +145,29 @@
 				<false/>
 			</dict>
 		</array>
+		<key>384EF19C-91ED-40AF-87F2-FAAC64614B42</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>E9EE3256-7694-44A4-B076-BDDAC5002701</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>A77A1308-A928-4920-9889-C67E16B2E41A</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string>Open in external editor</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>3BF0541E-83DB-419B-B545-843976BAF63D</key>
 		<array>
 			<dict>
@@ -332,29 +355,6 @@
 				<string>A52E3728-4AFF-4A73-A364-370836A29175</string>
 				<key>modifiers</key>
 				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-		<key>787A7006-D0F5-4868-840F-405A1D1FF2BE</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>E9EE3256-7694-44A4-B076-BDDAC5002701</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>A77A1308-A928-4920-9889-C67E16B2E41A</string>
-				<key>modifiers</key>
-				<integer>1048576</integer>
 				<key>modifiersubtext</key>
 				<string></string>
 				<key>vitoclose</key>
@@ -855,6 +855,74 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>st</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>script</key>
+				<string>originalpath="$vault_path"
+user="$(eval echo ~$USER)"
+expanded=${originalpath/\~/"$user"} 
+
+results=("${(@f)$(mdfind -onlyin "$expanded" $1)}")
+
+json_obj='{"items":[{}'
+
+for path in "${results[@]}"
+do
+title=${path##*/}
+title="${title%.*}"
+
+json_obj="$json_obj",{\"type\":\"file\",\"title\":\""${title}"\",\"subtitle\":\""${path}"\",\"arg\":\""${path}"\"}
+
+done
+
+json_obj="$json_obj"]}
+
+echo "$json_obj"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>search test</string>
+				<key>type</key>
+				<integer>5</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>384EF19C-91ED-40AF-87F2-FAAC64614B42</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>argumenttype</key>
 				<integer>2</integer>
 				<key>keyword</key>
@@ -872,83 +940,6 @@
 			<string>375E7C03-7400-49EF-9797-1B94D5395393</string>
 			<key>version</key>
 			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>alfredfiltersresults</key>
-				<false/>
-				<key>alfredfiltersresultsmatchmode</key>
-				<integer>0</integer>
-				<key>argumenttreatemptyqueryasnil</key>
-				<true/>
-				<key>argumenttrimmode</key>
-				<integer>0</integer>
-				<key>argumenttype</key>
-				<integer>0</integer>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>keyword</key>
-				<string>s</string>
-				<key>queuedelaycustom</key>
-				<integer>3</integer>
-				<key>queuedelayimmediatelyinitially</key>
-				<true/>
-				<key>queuedelaymode</key>
-				<integer>0</integer>
-				<key>queuemode</key>
-				<integer>1</integer>
-				<key>runningsubtext</key>
-				<string></string>
-				<key>script</key>
-				<string>query=$1
-
-originalpath="$vault_path"
-user="$(eval echo ~$USER)"
-
-expanded=${originalpath/\~/"$user"} 
-
-results="$(mdfind -onlyin "$expanded" "$query")"
-
-json_obj=("items:":[])
-
-for 
-
-cat &lt;&lt; EOB
-{"items": [
-	{
-		"uid": "desktop",
-		"type": "file",
-		"title": "Desktop",
-		"subtitle": "~/Desktop",
-		"arg": "~/Desktop",
-		"autocomplete": "Desktop",
-		"icon": {
-			"type": "fileicon",
-			"path": "~/Desktop"
-		}
-	}
-]
-EOB</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string>mdfind.py</string>
-				<key>subtext</key>
-				<string></string>
-				<key>title</key>
-				<string>Search Obsidian for "{query}"</string>
-				<key>type</key>
-				<integer>8</integer>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.scriptfilter</string>
-			<key>uid</key>
-			<string>787A7006-D0F5-4868-840F-405A1D1FF2BE</string>
-			<key>version</key>
-			<integer>3</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -2597,6 +2588,10 @@ This is an [Alfred](https://alfredapp.com) workflow containing various actions t
 
 ## Release Notes
 
+### v2.0.2
+- Minor improvements to Global Search.
+- Refactored `s`earch to avoid some dependency problems.
+
 ### v2.0.1
 - Fixed hardcoded scope in `s` search.
 - Fixed markdown `clip`ing.
@@ -2833,6 +2828,13 @@ Found a bug? Want to make a suggestion? [Open an issue](https://github.com/maced
 			<key>ypos</key>
 			<integer>75</integer>
 		</dict>
+		<key>384EF19C-91ED-40AF-87F2-FAAC64614B42</key>
+		<dict>
+			<key>xpos</key>
+			<integer>615</integer>
+			<key>ypos</key>
+			<integer>20</integer>
+		</dict>
 		<key>3BF0541E-83DB-419B-B545-843976BAF63D</key>
 		<dict>
 			<key>colorindex</key>
@@ -3018,13 +3020,6 @@ Output:
 			<integer>1110</integer>
 			<key>ypos</key>
 			<integer>1840</integer>
-		</dict>
-		<key>787A7006-D0F5-4868-840F-405A1D1FF2BE</key>
-		<dict>
-			<key>xpos</key>
-			<integer>795</integer>
-			<key>ypos</key>
-			<integer>85</integer>
 		</dict>
 		<key>789CB64F-E033-4297-ACC3-D392B6F76ACE</key>
 		<dict>
@@ -3212,9 +3207,9 @@ Output:
 			<key>colorindex</key>
 			<integer>11</integer>
 			<key>xpos</key>
-			<integer>1050</integer>
+			<integer>1005</integer>
 			<key>ypos</key>
-			<integer>225</integer>
+			<integer>250</integer>
 		</dict>
 		<key>AA579910-CA2C-4A70-BE9E-BF637B63BCB6</key>
 		<dict>
@@ -3317,9 +3312,9 @@ Output:
 			<key>note</key>
 			<string>Open note in Obsidian</string>
 			<key>xpos</key>
-			<integer>995</integer>
+			<integer>1000</integer>
 			<key>ypos</key>
-			<integer>25</integer>
+			<integer>20</integer>
 		</dict>
 		<key>EE2F54FB-7F52-47C0-BAB5-C22C3F7EB12B</key>
 		<dict>
@@ -3378,25 +3373,25 @@ Output:
 		<key>browser</key>
 		<string>Safari</string>
 		<key>daily_folder</key>
-		<string></string>
+		<string>Notas Diárias</string>
 		<key>journal_tag</key>
-		<string></string>
+		<string>diário</string>
 		<key>searches_heading</key>
-		<string></string>
+		<string>Pesquisas</string>
 		<key>task_tag</key>
-		<string></string>
+		<string>tarefa</string>
 		<key>tasks_file</key>
-		<string></string>
+		<string>Tarefas</string>
 		<key>tasks_heading</key>
-		<string></string>
+		<string>Em curso</string>
 		<key>title</key>
-		<string></string>
+		<string>linux - Extract file basename without path and extension in bash - Stack Overflow</string>
 		<key>url</key>
-		<string></string>
+		<string>https://stackoverflow.com/questions/2664740/extract-file-basename-without-path-and-extension-in-bash</string>
 		<key>vault_name</key>
-		<string></string>
+		<string>Notas</string>
 		<key>vault_path</key>
-		<string></string>
+		<string>~/Dropbox/Notas</string>
 	</dict>
 	<key>variablesdontexport</key>
 	<array>
@@ -3406,13 +3401,13 @@ Output:
 		<string>vault_path</string>
 		<string>journal_tag</string>
 		<string>title</string>
-		<string>searches_heading</string>
 		<string>tasks_file</string>
 		<string>vault_name</string>
+		<string>searches_heading</string>
 		<string>url</string>
 	</array>
 	<key>version</key>
-	<string>2.0.1</string>
+	<string>2.0.2</string>
 	<key>webaddress</key>
 	<string>https://forum.obsidian.md/u/macedotavares/summary</string>
 </dict>

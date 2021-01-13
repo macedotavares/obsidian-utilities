@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 #-*- coding: utf-8 -*-
 
 import os, re, sys, json
@@ -68,7 +68,7 @@ for root, dirs, files in os.walk(rootdir):
 					# append (title, match, icon, arg, quicklook) to json
 					append_json(
 						line,
-						match,
+						line + ' ' + match,
 						"heading.png",
 						"[["+file[:-3].strip()+"#"+heading+"]]" + "ALFRED_SPLIT" + os.path.join(root, file) + "ALFRED_SPLIT" + "(none)" + "ALFRED_SPLIT" + "(none)",
 						"file://" + parse.quote(os.path.join(root, file))
@@ -87,7 +87,7 @@ for root, dirs, files in os.walk(rootdir):
 					# append (title, match, icon, arg, quicklook) to json
 					append_json(
 						line,
-						match,
+						line + ' ' + match,
 						"block.png",
 						file[:-3].strip() + "ALFRED_SPLIT" + os.path.join(root, file) + "ALFRED_SPLIT" + line + "ALFRED_SPLIT" + ref_code,
 						"file://" + parse.quote(os.path.join(root, file))
