@@ -1363,7 +1363,7 @@ sys.stdout.write(new_content)</string>
 readonly remote_info_plist='https://github.com/macedotavares/obsidian-utilities/raw/main/src/info.plist'
 readonly workflow_url='macedotavares/obsidian-utilities'
 readonly download_type='github_release'
-readonly frequency_check='0'
+readonly frequency_check='1'
 
 # FROM HERE ON, CODE SHOULD BE LEFT UNTOUCHED!
 function abort {
@@ -3498,16 +3498,16 @@ Output:
 		<string>tasks_heading</string>
 		<string>task_tag</string>
 		<string>daily_folder</string>
-		<string>url</string>
+		<string>vault_path</string>
 		<string>journal_tag</string>
 		<string>title</string>
-		<string>vault_name</string>
-		<string>vault_path</string>
 		<string>searches_heading</string>
 		<string>tasks_file</string>
+		<string>vault_name</string>
+		<string>url</string>
 	</array>
 	<key>version</key>
-	<string>2.0.0</string>
+	<string>2.1.0</string>
 	<key>webaddress</key>
 	<string>https://github.com/macedotavares/obsidian-utilities</string>
 </dict>
