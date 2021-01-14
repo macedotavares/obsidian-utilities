@@ -8,17 +8,6 @@ This is an [Alfred](https://alfredapp.com) workflow containing various actions t
 
 ---
 
-## Release Notes
-
-### What's changed
-- The worklow does not assume the vault is inside your home folder anymore. `vault_path` must now be a full, absolute path.
-
-### What's new
-- There's a new Global Search feature that searches all your vault and automatically inserts links to found notes, headers or blocks.
-- The `clip` action now works with Google Chrome. (Thanks for the AppleScript, @alvaroybanez!) Don't forget to change the `default_browser` environment variable if you want to use that instead of Safari.
-
----
-
 ## Install
 
 1. Download [this file](https://github.com/macedotavares/obsidian-utilities/releases/download/v2.0.0/Obsidian.Utilities.alfredworkflow).
@@ -28,9 +17,6 @@ This is an [Alfred](https://alfredapp.com) workflow containing various actions t
 
 ## Setup
 You must configure the following environment variables before using the workflow:
-
-### browser
-`Safari` is the default. Replace that with `Google Chrome` to switch browsers.
 
 ### daily_folder
 The name of the folder where you keep your daily notes (eg. "Dailies").
