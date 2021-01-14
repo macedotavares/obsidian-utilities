@@ -82,6 +82,16 @@
 				<key>vitoclose</key>
 				<false/>
 			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>DA543B3F-CBDE-43DA-AD64-B0E89627C43E</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
 		</array>
 		<key>28141437-681E-4BCA-B8F1-58125EF20862</key>
 		<array>
@@ -144,6 +154,16 @@
 				<key>vitoclose</key>
 				<false/>
 			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>DA543B3F-CBDE-43DA-AD64-B0E89627C43E</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
 		</array>
 		<key>384EF19C-91ED-40AF-87F2-FAAC64614B42</key>
 		<array>
@@ -164,6 +184,16 @@
 				<integer>1048576</integer>
 				<key>modifiersubtext</key>
 				<string>Open in external editor</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>DA543B3F-CBDE-43DA-AD64-B0E89627C43E</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
 				<key>vitoclose</key>
 				<false/>
 			</dict>
@@ -271,6 +301,16 @@
 		</array>
 		<key>4D34DC93-1177-4F09-BCB0-394841B12122</key>
 		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>DA543B3F-CBDE-43DA-AD64-B0E89627C43E</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
 			<dict>
 				<key>destinationuid</key>
 				<string>DE7A7E9A-F7E0-4528-A18B-943AF3A263B6</string>
@@ -412,19 +452,6 @@
 				<false/>
 			</dict>
 		</array>
-		<key>8806C488-438C-4271-9E2A-3282C64F9C24</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>69580EB9-4634-4BEA-AE49-6881DDCD0D8C</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
 		<key>8B05F86F-8E5D-42FE-A42B-EA6622A3CDE8</key>
 		<array>
 			<dict>
@@ -541,31 +568,6 @@
 				<false/>
 			</dict>
 		</array>
-		<key>A1845894-BA05-4DEC-AD63-350B6EF0ACD6</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>8806C488-438C-4271-9E2A-3282C64F9C24</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>sourceoutputuid</key>
-				<string>B2F541D2-4B82-457C-949F-A2B2C2C54778</string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>BADE2759-222A-4450-B4B3-067C3394260F</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
 		<key>A307E60B-D944-4604-8911-61F6462E17CE</key>
 		<array>
 			<dict>
@@ -629,7 +631,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>44FE68FA-DF0E-41A5-9518-AD61D23AFAF8</string>
+				<string>DA543B3F-CBDE-43DA-AD64-B0E89627C43E</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -637,12 +639,9 @@
 				<key>vitoclose</key>
 				<false/>
 			</dict>
-		</array>
-		<key>BADE2759-222A-4450-B4B3-067C3394260F</key>
-		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>69580EB9-4634-4BEA-AE49-6881DDCD0D8C</string>
+				<string>44FE68FA-DF0E-41A5-9518-AD61D23AFAF8</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -653,6 +652,16 @@
 		</array>
 		<key>CA63B28D-B768-4533-90B5-6FB74A30DDD7</key>
 		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>DA543B3F-CBDE-43DA-AD64-B0E89627C43E</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
 			<dict>
 				<key>destinationuid</key>
 				<string>42D158C3-36E5-4DB8-8F7F-5D647313A681</string>
@@ -677,11 +686,24 @@
 				<false/>
 			</dict>
 		</array>
+		<key>D09D1B6A-3C7D-461B-9A85-0E6706931BCD</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>69580EB9-4634-4BEA-AE49-6881DDCD0D8C</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>DE7A7E9A-F7E0-4528-A18B-943AF3A263B6</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>A1845894-BA05-4DEC-AD63-350B6EF0ACD6</string>
+				<string>D09D1B6A-3C7D-461B-9A85-0E6706931BCD</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -695,6 +717,16 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>E8AB648D-9478-4F54-AED0-BE6B2B88418E</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>DA543B3F-CBDE-43DA-AD64-B0E89627C43E</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -809,7 +841,7 @@
 		</array>
 	</dict>
 	<key>createdby</key>
-	<string>@senhortavares</string>
+	<string>@macedotavares</string>
 	<key>description</key>
 	<string></string>
 	<key>disabled</key>
@@ -1325,6 +1357,97 @@ sys.stdout.write(new_content)</string>
 				<key>concurrently</key>
 				<false/>
 				<key>escaping</key>
+				<integer>0</integer>
+				<key>script</key>
+				<string># THESE VARIABLES MUST BE SET. SEE THE ONEUPDATER README FOR AN EXPLANATION OF EACH.
+readonly remote_info_plist='https://github.com/macedotavares/obsidian-utilities/raw/main/src/info.plist'
+readonly workflow_url='macedotavares/obsidian-utilities'
+readonly download_type='github_release'
+readonly frequency_check='0'
+
+# FROM HERE ON, CODE SHOULD BE LEFT UNTOUCHED!
+function abort {
+  echo "${1}" &gt;&amp;2
+  exit 1
+}
+
+function url_exists {
+  curl --silent --location --output /dev/null --fail --range 0-0 "${1}"
+}
+
+function notification {
+  local -r notificator="$(find . -type d -name 'Notificator.app')"
+  if [[ -n "${notificator}" ]]; then
+    "${notificator}/Contents/Resources/Scripts/notificator" --message "${1}" --title "${alfred_workflow_name}" --subtitle 'A new version is available'
+    return
+  fi
+
+  local -r terminal_notifier="$(find . -type f -name 'terminal-notifier')"
+  if [[ -n "${terminal_notifier}" ]]; then
+    "${terminal_notifier}" -title "${alfred_workflow_name}" -subtitle 'A new version is available' -message "${1}"
+    return
+  fi
+
+  osascript -e "display notification \"${1}\" with title \"${alfred_workflow_name}\" subtitle \"A new version is available\""
+}
+
+# Local sanity checks
+readonly local_info_plist='info.plist'
+readonly local_version="$(/usr/libexec/PlistBuddy -c 'print version' "${local_info_plist}")"
+
+[[ -n "${local_version}" ]] || abort 'You need to set a workflow version in the configuration sheet.'
+[[ "${download_type}" =~ ^(direct|page|github_release)$ ]] || abort "'download_type' (${download_type}) needs to be one of 'direct', 'page', or 'github_release'."
+[[ "${frequency_check}" =~ ^[0-9]+$ ]] || abort "'frequency_check' (${frequency_check}) needs to be a number."
+
+# Check for updates
+if [[ $(find "${local_info_plist}" -mtime +"${frequency_check}"d) ]]; then
+  if ! url_exists "${remote_info_plist}"; then abort "'remote_info_plist' (${remote_info_plist}) appears to not be reachable."; fi # Remote sanity check
+
+  readonly tmp_file="$(mktemp)"
+  curl --silent --location --output "${tmp_file}" "${remote_info_plist}"
+  readonly remote_version="$(/usr/libexec/PlistBuddy -c 'print version' "${tmp_file}")"
+
+  if [[ "${local_version}" == "${remote_version}" ]]; then
+    touch "${local_info_plist}" # Reset timer by touching local file
+    exit 0
+  fi
+
+  if [[ "${download_type}" == 'page' ]]; then
+    notification 'Opening download page…'
+    open "${workflow_url}"
+    exit 0
+  fi
+
+  download_url="$([[ "${download_type}" == 'github_release' ]] &amp;&amp; curl --silent "https://api.github.com/repos/${workflow_url}/releases/latest" | grep 'browser_download_url' | head -1 | sed -E 's/.*browser_download_url": "(.*)"/\1/' || echo "${workflow_url}")"
+
+  if url_exists "${download_url}"; then
+    notification 'Downloading and installing…'
+    curl --silent --location --output "${HOME}/Downloads/${alfred_workflow_name}.alfredworkflow" "${download_url}"
+    open "${HOME}/Downloads/${alfred_workflow_name}.alfredworkflow"
+  else
+    abort "'workflow_url' (${download_url}) appears to not be reachable."
+  fi
+fi</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>DA543B3F-CBDE-43DA-AD64-B0E89627C43E</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
 				<integer>102</integer>
 				<key>script</key>
 				<string>originalpath="${1}"
@@ -1688,37 +1811,6 @@ echo -n "$(find "$expanded" -type f -print0 | xargs -0 grep -l "$ref")"</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>68</integer>
-				<key>script</key>
-				<string>tell application "Google Chrome" to set currentURL to URL of active tab of window 1
-tell application "Google Chrome" to set theTitle to title of active tab of window 1
-
-set bundleID to (system attribute "alfred_workflow_bundleid")
-
-tell application id "com.runningwithcrayons.Alfred"
-	set configuration "url" to value currentURL in workflow bundleID
-	set configuration "title" to value theTitle in workflow bundleID
-end tell</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>6</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>8806C488-438C-4271-9E2A-3282C64F9C24</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>adduuid</key>
 				<false/>
 				<key>allowemptyfiles</key>
@@ -1824,32 +1916,77 @@ sys.stdout.write(result)</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>conditions</key>
-				<array>
-					<dict>
-						<key>inputstring</key>
-						<string>{var:browser}</string>
-						<key>matchcasesensitive</key>
-						<false/>
-						<key>matchmode</key>
-						<integer>0</integer>
-						<key>matchstring</key>
-						<string>Google Chrome</string>
-						<key>outputlabel</key>
-						<string>Chrome</string>
-						<key>uid</key>
-						<string>B2F541D2-4B82-457C-949F-A2B2C2C54778</string>
-					</dict>
-				</array>
-				<key>elselabel</key>
-				<string>Safari</string>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>script</key>
+				<string>-- CODE BY Vitor
+-- https://www.alfredforum.com/topic/2013-how-to-get-frontmost-tab’s-url-and-title-of-various-browsers/
+-- This example returns both the title and URL for the frontmost tab of the active browser, separated by a newline.
+-- For shorter code inclusive of all editions, only the start of the application name is checked.
+-- Keep in mind that to be able to use a variable in `tell application` — via `using terms from` — we’re basically requiring that referenced browser to be available on the system.
+-- That means that to use this on "Google Chrome Canary" or "Chromium", "Google Chrome" needs to be installed. Same for other browsers.
+-- This method also does not exit with a non-zero exit status when the frontmost application is not a supported browser.
+-- For the aforementioned reasons, this method is inferior to its JXA counterpart.
+use scripting additions
+use framework "Foundation"
+
+tell application "System Events" to set frontApp to name of first process whose frontmost is true
+
+if (frontapp starts with "Google Chrome") or (frontApp starts with "Chromium") or (frontApp starts with "Opera") or (frontApp starts with "Vivaldi") or (frontApp starts with "Brave Browser") or (frontApp starts with "Microsoft Edge") then
+  using terms from application "Google Chrome"
+    tell application frontApp to set currentTabTitle to title of active tab of front window
+    tell application frontApp to set currentTabUrl to URL of active tab of front window
+  end using terms from
+else if (frontApp starts with "Safari") or (frontApp starts with "Webkit") then
+  using terms from application "Safari"
+    tell application frontApp to set currentTabTitle to name of front document
+    tell application frontApp to set currentTabUrl to URL of front document
+  end using terms from
+else if (frontApp starts with "Firefox") then
+	tell application "Firefox" to activate
+	tell application "System Events" to tell process "firefox"
+		set frontmost to true
+		set currentTabTitle to name of windows's item 1
+		set currentTabTitle to (do shell script "echo " &amp; quoted form of currentTabTitle &amp; " | tr '[' ' '")
+		set currentTabTitle to (do shell script "echo " &amp; quoted form of currentTabTitle &amp; " | tr ']' ' '")
+	end tell
+	set thePasteboard to current application's NSPasteboard's generalPasteboard()
+	set theCount to thePasteboard's changeCount()
+	tell application "System Events"
+		keystroke "l" using {command down}
+		delay 0.2
+		keystroke "c" using {command down}
+	end tell
+	repeat 20 times
+		if thePasteboard's changeCount() is not theCount then exit repeat
+		delay 0.1
+	end repeat
+	set currentTabUrl to the clipboard
+else
+  return "You need a supported browser as your frontmost app"
+end if
+
+set bundleID to (system attribute "alfred_workflow_bundleid")
+
+tell application id "com.runningwithcrayons.Alfred"
+	set configuration "url" to value currentTabUrl in workflow bundleID
+	set configuration "title" to value currentTabTitle in workflow bundleID
+end tell</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>6</integer>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.utility.conditional</string>
+			<string>alfred.workflow.action.script</string>
 			<key>uid</key>
-			<string>A1845894-BA05-4DEC-AD63-350B6EF0ACD6</string>
+			<string>D09D1B6A-3C7D-461B-9A85-0E6706931BCD</string>
 			<key>version</key>
-			<integer>1</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1872,35 +2009,6 @@ sys.stdout.write(result)</string>
 			<string>DE7A7E9A-F7E0-4528-A18B-943AF3A263B6</string>
 			<key>version</key>
 			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>63</integer>
-				<key>script</key>
-				<string>tell application "Safari" to set currentURL to the URL of the front documenttell application "Safari" to set theTitle to name of front document
-set bundleID to (system attribute "alfred_workflow_bundleid")
-
-tell application id "com.runningwithcrayons.Alfred"
-	set configuration "url" to value currentURL in workflow bundleID
-	set configuration "title" to value theTitle in workflow bundleID
-end tell</string>
-				<key>scriptargtype</key>
-				<integer>0</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>6</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>BADE2759-222A-4450-B4B3-067C3394260F</string>
-			<key>version</key>
-			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -2588,6 +2696,12 @@ This is an [Alfred](https://alfredapp.com) workflow containing various actions t
 
 ## Release Notes
 
+### v2.1.0
+- The workflow will now auto-update. 
+- Improvements to the `clip`action:
+	- it now works with all major browsers. However, due to limitations imposed by Mozilla, Firefox support is very hacky and unreliable.
+	- it automatically detects the browser being used (it must be the active application). You no longer have to set a `browser` environment variable.
+
 ### v2.0.2
 - Minor improvements to Global Search.
 - Refactored `s`earch to avoid some dependency problems.
@@ -2616,9 +2730,6 @@ This is an [Alfred](https://alfredapp.com) workflow containing various actions t
 
 ## Setup
 You must configure the following environment variables before using the workflow:
-
-### browser
-`Safari` is the default. Replace that with `Google Chrome` to switch browsers.
 
 ### daily_folder
 The name of the folder where you keep your daily notes (eg. "Dailies").
@@ -3080,15 +3191,6 @@ Output:
 			<key>ypos</key>
 			<integer>3050</integer>
 		</dict>
-		<key>8806C488-438C-4271-9E2A-3282C64F9C24</key>
-		<dict>
-			<key>colorindex</key>
-			<integer>8</integer>
-			<key>xpos</key>
-			<integer>400</integer>
-			<key>ypos</key>
-			<integer>1660</integer>
-		</dict>
 		<key>8B05F86F-8E5D-42FE-A42B-EA6622A3CDE8</key>
 		<dict>
 			<key>xpos</key>
@@ -3170,13 +3272,6 @@ Output:
 			<key>ypos</key>
 			<integer>2285</integer>
 		</dict>
-		<key>A1845894-BA05-4DEC-AD63-350B6EF0ACD6</key>
-		<dict>
-			<key>xpos</key>
-			<integer>270</integer>
-			<key>ypos</key>
-			<integer>1750</integer>
-		</dict>
 		<key>A307E60B-D944-4604-8911-61F6462E17CE</key>
 		<dict>
 			<key>note</key>
@@ -3220,17 +3315,6 @@ Output:
 			<key>ypos</key>
 			<integer>1010</integer>
 		</dict>
-		<key>BADE2759-222A-4450-B4B3-067C3394260F</key>
-		<dict>
-			<key>colorindex</key>
-			<integer>8</integer>
-			<key>note</key>
-			<string>Get URL and title</string>
-			<key>xpos</key>
-			<integer>400</integer>
-			<key>ypos</key>
-			<integer>1810</integer>
-		</dict>
 		<key>C3914442-A188-4048-93A5-585CBACE7992</key>
 		<dict>
 			<key>colorindex</key>
@@ -3265,6 +3349,24 @@ Output:
 			<integer>755</integer>
 			<key>ypos</key>
 			<integer>2370</integer>
+		</dict>
+		<key>D09D1B6A-3C7D-461B-9A85-0E6706931BCD</key>
+		<dict>
+			<key>xpos</key>
+			<integer>330</integer>
+			<key>ypos</key>
+			<integer>1735</integer>
+		</dict>
+		<key>DA543B3F-CBDE-43DA-AD64-B0E89627C43E</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>12</integer>
+			<key>note</key>
+			<string>OneUpdater</string>
+			<key>xpos</key>
+			<integer>2640</integer>
+			<key>ypos</key>
+			<integer>1010</integer>
 		</dict>
 		<key>DE7A7E9A-F7E0-4528-A18B-943AF3A263B6</key>
 		<dict>
@@ -3370,8 +3472,6 @@ Output:
 	</dict>
 	<key>variables</key>
 	<dict>
-		<key>browser</key>
-		<string>Safari</string>
 		<key>daily_folder</key>
 		<string>Notas Diárias</string>
 		<key>journal_tag</key>
@@ -3385,9 +3485,9 @@ Output:
 		<key>tasks_heading</key>
 		<string>Em curso</string>
 		<key>title</key>
-		<string>linux - Extract file basename without path and extension in bash - Stack Overflow</string>
+		<string>Safari - Apple</string>
 		<key>url</key>
-		<string>https://stackoverflow.com/questions/2664740/extract-file-basename-without-path-and-extension-in-bash</string>
+		<string>https://www.apple.com/safari/</string>
 		<key>vault_name</key>
 		<string>Notas</string>
 		<key>vault_path</key>
@@ -3398,17 +3498,17 @@ Output:
 		<string>tasks_heading</string>
 		<string>task_tag</string>
 		<string>daily_folder</string>
-		<string>vault_name</string>
+		<string>url</string>
 		<string>journal_tag</string>
 		<string>title</string>
-		<string>searches_heading</string>
-		<string>url</string>
-		<string>tasks_file</string>
+		<string>vault_name</string>
 		<string>vault_path</string>
+		<string>searches_heading</string>
+		<string>tasks_file</string>
 	</array>
 	<key>version</key>
-	<string>2.0.2</string>
+	<string>2.0.0</string>
 	<key>webaddress</key>
-	<string>https://forum.obsidian.md/u/macedotavares/summary</string>
+	<string>https://github.com/macedotavares/obsidian-utilities</string>
 </dict>
 </plist>
