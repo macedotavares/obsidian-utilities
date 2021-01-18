@@ -1,0 +1,4 @@
+nltk
+gensim
+numpy
+html2text
