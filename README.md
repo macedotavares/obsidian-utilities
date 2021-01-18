@@ -8,6 +8,36 @@ This is an [Alfred](https://alfredapp.com) workflow containing various actions t
 
 ---
 
+## Release Notes
+
+### v2.2.0
+- Type `/related` anywere on your note and the workflow will insert a list of related notes, based on content similarity. It may take some time, though. Like, 10 seconds on a newish macbook and 2000+ notes.
+- Fixed and improved browser support for all major browsers (minus Firefox). Firefox was removed because the hack was too hacky.
+
+### v2.1.0
+- The workflow will now auto-update. 
+- Improvements to the `clip`action:
+	- it now works with all major browsers. However, due to limitations imposed by Mozilla, Firefox support is very hacky and unreliable.
+	- it automatically detects the browser being used (it must be the active application). You no longer have to set a `browser` environment variable.
+
+### v2.0.2
+- Minor improvements to Global Search.
+- Refactored `s`earch to avoid some dependency problems.
+
+### v2.0.1
+- Fixed hardcoded scope in `s` search.
+- Fixed markdown `clip`ing.
+
+### v2.0.0
+
+### What's changed
+- The worklow does not assume the vault is inside your home folder anymore. `vault_path` must now be a full, absolute path.
+
+### What's new
+- The `clip` action now works with Google Chrome. (Thanks for the AppleScript, @alvaroybanez!) Don't forget to change the `default_browser` environment variable if you want to use that instead of Safari.
+
+---
+
 ## Install
 
 1. Download [this file](https://github.com/macedotavares/obsidian-utilities/releases/download/v2.0.0/Obsidian.Utilities.alfredworkflow).
@@ -23,6 +53,12 @@ The name of the folder where you keep your daily notes (eg. "Dailies").
 
 ### journal_tag
 The tag that will be appended to your journal entries. Without the octothorpe. (eg. "journal")
+
+### related_ignore_words
+Common and irrelevant words that you wish to exclude from the match criteria. Separated by spaces.
+
+### related_max_results
+How many results to return.
 
 ### searches_heading
 The H2 heading that will be created/appended to inside your daily notes. Without the octothorpe. (eg. "Google Searches")
@@ -68,7 +104,7 @@ Each kind of result will have a different icon:
 - `#` for headings
 - `^` for blocks/lines
 
-Insert the link by pressing Enter or clicking on the result.
+Insert the link by pressing Enter or double-clicking the result.
 
 Cmd+Enter will open the note file in VS Code. (I'm using an external text editor here because I didn't want to replace the active note, and I couldn't find a way of opening a new pane.)
 As usual in Alfred, pressing shift with a result highlighted will quick-look into it.
