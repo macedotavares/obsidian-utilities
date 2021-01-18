@@ -44,7 +44,7 @@ for root, dirs, files in os.walk(rootdir):
 			append_json(
 				file,
 				file,
-				"title.png",
+				"icons/title.png",
 				"[["+file[:-3].strip()+"]]" + "ALFRED_SPLIT" + os.path.join(root, file) + "ALFRED_SPLIT" + "(none)" + "ALFRED_SPLIT" + "(none)",
 				"file://" + parse.quote(os.path.join(root, file))
 			)
@@ -69,7 +69,7 @@ for root, dirs, files in os.walk(rootdir):
 					append_json(
 						line,
 						line + ' ' + match,
-						"heading.png",
+						"icons/heading.png",
 						"[["+file[:-3].strip()+"#"+heading+"]]" + "ALFRED_SPLIT" + os.path.join(root, file) + "ALFRED_SPLIT" + "(none)" + "ALFRED_SPLIT" + "(none)",
 						"file://" + parse.quote(os.path.join(root, file))
 					)
@@ -88,7 +88,7 @@ for root, dirs, files in os.walk(rootdir):
 					append_json(
 						line,
 						line + ' ' + match,
-						"block.png",
+						"icons/block.png",
 						file[:-3].strip() + "ALFRED_SPLIT" + os.path.join(root, file) + "ALFRED_SPLIT" + line + "ALFRED_SPLIT" + ref_code,
 						"file://" + parse.quote(os.path.join(root, file))
 					)
@@ -99,7 +99,7 @@ if json_obj["items"] == []:
 	"type":"file",
 	"title": "No results found",
 	"icon": {
-		"path": "noresults.png"
+		"path": "icons/noresults.png"
 	},
 	})
 

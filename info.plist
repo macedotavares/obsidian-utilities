@@ -1595,7 +1595,7 @@ sys.stdout.write(new_content)</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
-				<string>append_to_heading.py</string>
+				<string>scripts/append_to_heading.py</string>
 				<key>type</key>
 				<integer>8</integer>
 			</dict>
@@ -2619,7 +2619,7 @@ Application('com.runningwithcrayons.Alfred').setConfiguration('title', {
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
-				<string>append_to_heading.py</string>
+				<string>scripts/append_to_heading.py</string>
 				<key>type</key>
 				<integer>8</integer>
 			</dict>
@@ -2946,7 +2946,7 @@ sys.stdout.write(out)</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
-				<string>search.py</string>
+				<string>scripts/search.py</string>
 				<key>subtext</key>
 				<string></string>
 				<key>title</key>
@@ -3234,7 +3234,7 @@ echo -n "$(find "$expanded" -type f -print0 | xargs -0 grep -l "$ref")"</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
-				<string>related_tf_idf.py</string>
+				<string>scripts/related_tf_idf.py</string>
 				<key>type</key>
 				<integer>8</integer>
 			</dict>
@@ -4696,7 +4696,7 @@ Output:
 		<string>tasks_file</string>
 	</array>
 	<key>version</key>
-	<string>2.2.0</string>
+	<string>2.2.1</string>
 	<key>webaddress</key>
 	<string>https://github.com/macedotavares/obsidian-utilities</string>
 </dict>
