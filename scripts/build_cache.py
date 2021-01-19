@@ -11,7 +11,7 @@ import pickle
 ps = PorterStemmer() 
 
 vault_path = os.path.expanduser(os.environ['vault_path'])
-cache_path = "./cache.p"
+cache_path = "cache.p"
 exclude = set(['.git', '.obsidian', '.trash'])
 
 vault_list = []

@@ -16,7 +16,7 @@ ps = PorterStemmer()
 file_to_match = os.environ['file']
 max_results = int(os.environ['related_max_results'])
 ignore_words = os.environ['related_ignore_words'].split(" ")
-cache_path = os.path.expanduser("./cache.p")
+cache_path = os.path.expanduser("cache.p")
 
 ######### FUNCTIONS #########
 
@@ -45,7 +45,7 @@ corpus = cache["corpus"]
 tf_idf = cache["tf-idf"]
 
 sims = gensim.similarities.Similarity(\
-										'./index/',\
+										'index/',\
 										tf_idf[corpus], \
 										num_features=len(dictionary))
 

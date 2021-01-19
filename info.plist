@@ -3165,7 +3165,7 @@ sys.stdout.write(out)</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
-				<string>build_cache.py</string>
+				<string>scripts/build_cache.py</string>
 				<key>type</key>
 				<integer>8</integer>
 			</dict>
@@ -3342,7 +3342,7 @@ echo -n $ref</string>
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>script</key>
-				<string>FILE=./cache.p
+				<string>FILE=scripts/cache.p
 if [ -f "$FILE" ]; then
     echo -n "True"
 else 
@@ -3591,7 +3591,7 @@ fi</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
-				<string>build_cache.py</string>
+				<string>scripts/build_cache.py</string>
 				<key>type</key>
 				<integer>8</integer>
 			</dict>
