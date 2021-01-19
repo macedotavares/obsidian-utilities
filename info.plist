@@ -3342,7 +3342,7 @@ echo -n $ref</string>
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>script</key>
-				<string>FILE=scripts/cache.p
+				<string>FILE=cache.p
 if [ -f "$FILE" ]; then
     echo -n "True"
 else 
@@ -4689,13 +4689,13 @@ Output:
 		<string>tasks_heading</string>
 		<string>task_tag</string>
 		<string>daily_folder</string>
-		<string>vault_path</string>
+		<string>tasks_file</string>
 		<string>journal_tag</string>
 		<string>title</string>
-		<string>searches_heading</string>
-		<string>tasks_file</string>
 		<string>vault_name</string>
 		<string>url</string>
+		<string>searches_heading</string>
+		<string>vault_path</string>
 	</array>
 	<key>version</key>
 	<string>2.2.1</string>
