@@ -8,6 +8,9 @@ This is an [Alfred](https://alfredapp.com) workflow containing various actions t
 
 ---
 
+## System requirements
+macOS 10.15 or above
+
 ## Release Notes
 
 ### v2.2.0
