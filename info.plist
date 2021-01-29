@@ -244,6 +244,16 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
+				<string>DA543B3F-CBDE-43DA-AD64-B0E89627C43E</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
 				<string>E9EE3256-7694-44A4-B076-BDDAC5002701</string>
 				<key>modifiers</key>
 				<integer>0</integer>
@@ -259,16 +269,6 @@
 				<integer>1048576</integer>
 				<key>modifiersubtext</key>
 				<string>Open in external editor</string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>DA543B3F-CBDE-43DA-AD64-B0E89627C43E</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
 				<key>vitoclose</key>
 				<false/>
 			</dict>
@@ -491,7 +491,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>3BF0541E-83DB-419B-B545-843976BAF63D</string>
+				<string>B1C517F8-6E04-4D3B-8C0C-CD9C208B6934</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -849,7 +849,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>DA543B3F-CBDE-43DA-AD64-B0E89627C43E</string>
+				<string>44FE68FA-DF0E-41A5-9518-AD61D23AFAF8</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -859,7 +859,7 @@
 			</dict>
 			<dict>
 				<key>destinationuid</key>
-				<string>44FE68FA-DF0E-41A5-9518-AD61D23AFAF8</string>
+				<string>DA543B3F-CBDE-43DA-AD64-B0E89627C43E</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -895,6 +895,31 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>7A5353CE-D2EE-44FE-8490-EF906EBB4A52</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>B1C517F8-6E04-4D3B-8C0C-CD9C208B6934</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>462F9926-34BA-48DF-B95B-102D7DB5FF96</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>AB103B7C-75B0-474F-8679-F96CBCB885FC</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>3BF0541E-83DB-419B-B545-843976BAF63D</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -1199,93 +1224,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>browser</key>
-				<string></string>
-				<key>spaces</key>
-				<string></string>
-				<key>url</key>
-				<string>obsidian:///{query}</string>
-				<key>utf8</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
-			<key>uid</key>
-			<string>E9EE3256-7694-44A4-B076-BDDAC5002701</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>alfredfiltersresults</key>
-				<false/>
-				<key>alfredfiltersresultsmatchmode</key>
-				<integer>0</integer>
-				<key>argumenttreatemptyqueryasnil</key>
-				<true/>
-				<key>argumenttrimmode</key>
-				<integer>0</integer>
-				<key>argumenttype</key>
-				<integer>0</integer>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>keyword</key>
-				<string>s</string>
-				<key>queuedelaycustom</key>
-				<integer>3</integer>
-				<key>queuedelayimmediatelyinitially</key>
-				<true/>
-				<key>queuedelaymode</key>
-				<integer>0</integer>
-				<key>queuemode</key>
-				<integer>1</integer>
-				<key>runningsubtext</key>
-				<string></string>
-				<key>script</key>
-				<string>originalpath="$vault_path"
-user="$(eval echo ~$USER)"
-expanded=${originalpath/\~/"$user"} 
-
-results=("${(@f)$(mdfind -onlyin "$expanded" $1)}")
-
-json_obj='{"items":[{}'
-
-for path in "${results[@]}"
-do
-title=${path##*/}
-title="${title%.*}"
-
-json_obj="$json_obj",{\"type\":\"file\",\"title\":\""${title}"\",\"subtitle\":\""${path}"\",\"arg\":\""${path}"\"}
-
-done
-
-json_obj="$json_obj"]}
-
-echo "$json_obj"</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>subtext</key>
-				<string></string>
-				<key>title</key>
-				<string>Search Obsidian for "{query}"</string>
-				<key>type</key>
-				<integer>5</integer>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.scriptfilter</string>
-			<key>uid</key>
-			<string>384EF19C-91ED-40AF-87F2-FAAC64614B42</string>
-			<key>version</key>
-			<integer>3</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>argumenttype</key>
 				<integer>2</integer>
 				<key>keyword</key>
@@ -1316,21 +1254,6 @@ echo "$json_obj"</string>
 			<string>alfred.workflow.action.openfile</string>
 			<key>uid</key>
 			<string>83A078F5-6EBC-44DA-AFCB-F90B9769A55A</string>
-			<key>version</key>
-			<integer>3</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>openwith</key>
-				<string>~/Applications/Visual Studio Code.app</string>
-				<key>sourcefile</key>
-				<string>{query}</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openfile</string>
-			<key>uid</key>
-			<string>A77A1308-A928-4920-9889-C67E16B2E41A</string>
 			<key>version</key>
 			<integer>3</integer>
 		</dict>
@@ -1569,6 +1492,48 @@ echo "$json_obj"</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string>Script output was empty.</string>
+				<key>title</key>
+				<string>Error running action</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>462F9926-34BA-48DF-B95B-102D7DB5FF96</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>t</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Add task</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>AA579910-CA2C-4A70-BE9E-BF637B63BCB6</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>concurrently</key>
 				<false/>
 				<key>escaping</key>
@@ -1605,6 +1570,155 @@ sys.stdout.write(new_content)</string>
 			<string>5F09637B-0150-4EE7-9668-99AB1655CBD1</string>
 			<key>version</key>
 			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>originalpath="${1}"
+
+expanded="${originalpath/#\~/$HOME}"
+
+echo -n "$(cat "$expanded")"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>FDF6A561-6057-49F6-BC4F-F7E343BC5AB3</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>ref=$(openssl rand -base64 8 |md5 |head -c6;echo)
+
+
+echo -n $ref</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>48BE7684-936A-42AA-9556-849885805B27</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string></string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string></string>
+						<key>outputlabel</key>
+						<string>Error</string>
+						<key>uid</key>
+						<string>AB103B7C-75B0-474F-8679-F96CBCB885FC</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>Update</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>B1C517F8-6E04-4D3B-8C0C-CD9C208B6934</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>date</key>
+					<string>{date:yyyy-MM-dd}</string>
+					<key>task</key>
+					<string>{query}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>44FE68FA-DF0E-41A5-9518-AD61D23AFAF8</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>entry</key>
+					<string>[ ] [[{var:date}]] {var:task} ^{var:ref}</string>
+					<key>heading</key>
+					<string>{var:tasks_heading}</string>
+					<key>original_content</key>
+					<string>{query}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>93EA1574-ED7A-470D-9BC2-DEBC2A05F0DD</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>{var:vault_path}/{var:tasks_file}.md</string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>ref</key>
+					<string>{query}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>A307E60B-D944-4604-8911-61F6462E17CE</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1681,54 +1795,6 @@ sys.stdout.write(new_content)</string>
 			<string>311C67EE-37FA-4814-B76C-F999487DD625</string>
 			<key>version</key>
 			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>0</integer>
-				<key>keyword</key>
-				<string>t</string>
-				<key>subtext</key>
-				<string></string>
-				<key>text</key>
-				<string>Add task</string>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>AA579910-CA2C-4A70-BE9E-BF637B63BCB6</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>script</key>
-				<string>originalpath="${1}"
-
-expanded="${originalpath/#\~/$HOME}"
-
-echo -n "$(cat "$expanded")"</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>FDF6A561-6057-49F6-BC4F-F7E343BC5AB3</string>
-			<key>version</key>
-			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1820,98 +1886,6 @@ fi</string>
 			<string>DA543B3F-CBDE-43DA-AD64-B0E89627C43E</string>
 			<key>version</key>
 			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>script</key>
-				<string>ref=$(openssl rand -base64 8 |md5 |head -c6;echo)
-
-
-echo -n $ref</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>48BE7684-936A-42AA-9556-849885805B27</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argument</key>
-				<string></string>
-				<key>passthroughargument</key>
-				<false/>
-				<key>variables</key>
-				<dict>
-					<key>date</key>
-					<string>{date:yyyy-MM-dd}</string>
-					<key>task</key>
-					<string>{query}</string>
-				</dict>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.argument</string>
-			<key>uid</key>
-			<string>44FE68FA-DF0E-41A5-9518-AD61D23AFAF8</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argument</key>
-				<string></string>
-				<key>passthroughargument</key>
-				<false/>
-				<key>variables</key>
-				<dict>
-					<key>entry</key>
-					<string>[ ] [[{var:date}]] {var:task} ^{var:ref}</string>
-					<key>heading</key>
-					<string>{var:tasks_heading}</string>
-					<key>original_content</key>
-					<string>{query}</string>
-				</dict>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.argument</string>
-			<key>uid</key>
-			<string>93EA1574-ED7A-470D-9BC2-DEBC2A05F0DD</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argument</key>
-				<string>{var:vault_path}/{var:tasks_file}.md</string>
-				<key>passthroughargument</key>
-				<false/>
-				<key>variables</key>
-				<dict>
-					<key>ref</key>
-					<string>{query}</string>
-				</dict>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.argument</string>
-			<key>uid</key>
-			<string>A307E60B-D944-4604-8911-61F6462E17CE</string>
-			<key>version</key>
-			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -2624,6 +2598,108 @@ echo -n "$(cat "$expanded")"</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>obsidian:///{query}</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>E9EE3256-7694-44A4-B076-BDDAC5002701</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>s</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>script</key>
+				<string>originalpath="$vault_path"
+user="$(eval echo ~$USER)"
+expanded=${originalpath/\~/"$user"} 
+
+results=("${(@f)$(mdfind -onlyin "$expanded" $1)}")
+
+json_obj='{"items":[{}'
+
+for path in "${results[@]}"
+do
+title=${path##*/}
+title="${title%.*}"
+
+json_obj="$json_obj",{\"type\":\"file\",\"title\":\""${title}"\",\"subtitle\":\""${path}"\",\"arg\":\""${path}"\"}
+
+done
+
+json_obj="$json_obj"]}
+
+echo "$json_obj"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>Search Obsidian for "{query}"</string>
+				<key>type</key>
+				<integer>5</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>384EF19C-91ED-40AF-87F2-FAAC64614B42</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>openwith</key>
+				<string>~/Applications/Visual Studio Code.app</string>
+				<key>sourcefile</key>
+				<string>{query}</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openfile</string>
+			<key>uid</key>
+			<string>A77A1308-A928-4920-9889-C67E16B2E41A</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>autopaste</key>
 				<true/>
 				<key>clipboardtext</key>
@@ -2639,6 +2715,29 @@ echo -n "$(cat "$expanded")"</string>
 			<string>842DFD13-5DC7-45D5-AED4-A6A728D68732</string>
 			<key>version</key>
 			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>echo -n "$(cat "$1")"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>93C4A7B2-9D4A-40B6-838C-A53DE399D7A7</string>
+			<key>version</key>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -2669,73 +2768,6 @@ echo -n "$(cat "$expanded")"</string>
 			<string>859D4FEC-D9E0-4F04-8F1F-B97A01A507ED</string>
 			<key>version</key>
 			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>adduuid</key>
-				<false/>
-				<key>allowemptyfiles</key>
-				<true/>
-				<key>createintermediatefolders</key>
-				<false/>
-				<key>filename</key>
-				<string>{var:file}</string>
-				<key>filetext</key>
-				<string>{query}</string>
-				<key>ignoredynamicplaceholders</key>
-				<false/>
-				<key>relativepathmode</key>
-				<integer>0</integer>
-				<key>type</key>
-				<integer>1</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.writefile</string>
-			<key>uid</key>
-			<string>288E86FB-F6DC-4646-8EB2-51F5D7AB625E</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>matchmode</key>
-				<integer>0</integer>
-				<key>matchstring</key>
-				<string>{var:line}</string>
-				<key>replacestring</key>
-				<string>{var:line.trim} ^{var:code}</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.replace</string>
-			<key>uid</key>
-			<string>F4EA825B-1037-42A1-B92F-6C44B8CCEFC0</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>script</key>
-				<string>echo -n "$(cat "$1")"</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>93C4A7B2-9D4A-40B6-838C-A53DE399D7A7</string>
-			<key>version</key>
-			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -2811,6 +2843,50 @@ echo -n "$(cat "$expanded")"</string>
 			<string>3D4ECDDA-0A3F-4269-84FE-7330C71EA836</string>
 			<key>version</key>
 			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>adduuid</key>
+				<false/>
+				<key>allowemptyfiles</key>
+				<true/>
+				<key>createintermediatefolders</key>
+				<false/>
+				<key>filename</key>
+				<string>{var:file}</string>
+				<key>filetext</key>
+				<string>{query}</string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
+				<key>relativepathmode</key>
+				<integer>0</integer>
+				<key>type</key>
+				<integer>1</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.writefile</string>
+			<key>uid</key>
+			<string>288E86FB-F6DC-4646-8EB2-51F5D7AB625E</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>matchmode</key>
+				<integer>0</integer>
+				<key>matchstring</key>
+				<string>{var:line}</string>
+				<key>replacestring</key>
+				<string>{var:line.trim} ^{var:code}</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.replace</string>
+			<key>uid</key>
+			<string>F4EA825B-1037-42A1-B92F-6C44B8CCEFC0</string>
+			<key>version</key>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -3127,7 +3203,6 @@ sys.stdout.write(out)</string>
 				<integer>102</integer>
 				<key>script</key>
 				<string>originalpath="$vault_path"
-
 expanded="${originalpath/#\~/$HOME}"
 
 
@@ -3178,7 +3253,6 @@ echo -n "$(find "$expanded" -type f -print0 | xargs -0 grep -l "$ref")"</string>
 				<integer>102</integer>
 				<key>script</key>
 				<string>originalpath="$file"
-
 expanded="${originalpath/#\~/$HOME}"
 
 echo -n "$(cat "$expanded")"</string>
@@ -3734,7 +3808,7 @@ Found a bug? Want to make a suggestion? [Open an issue](https://github.com/maced
 			<key>xpos</key>
 			<integer>2570</integer>
 			<key>ypos</key>
-			<integer>3190</integer>
+			<integer>3595</integer>
 		</dict>
 		<key>05D670E2-E454-449E-AE4E-D584071A36CA</key>
 		<dict>
@@ -3752,9 +3826,9 @@ Found a bug? Want to make a suggestion? [Open an issue](https://github.com/maced
 			<key>note</key>
 			<string>add block link to daily note</string>
 			<key>xpos</key>
-			<integer>1225</integer>
+			<integer>1440</integer>
 			<key>ypos</key>
-			<integer>1000</integer>
+			<integer>1115</integer>
 		</dict>
 		<key>151889BC-F4C2-4134-AE03-38463A6B91B5</key>
 		<dict>
@@ -3771,7 +3845,7 @@ Output:
 			<key>xpos</key>
 			<integer>2255</integer>
 			<key>ypos</key>
-			<integer>3210</integer>
+			<integer>3615</integer>
 		</dict>
 		<key>171C445C-0615-45CC-9C68-83ADBF00066A</key>
 		<dict>
@@ -3780,14 +3854,14 @@ Output:
 			<key>xpos</key>
 			<integer>245</integer>
 			<key>ypos</key>
-			<integer>3215</integer>
+			<integer>3620</integer>
 		</dict>
 		<key>1DFE94E6-ECE5-435A-AB12-5471581A1E33</key>
 		<dict>
 			<key>xpos</key>
 			<integer>2175</integer>
 			<key>ypos</key>
-			<integer>3240</integer>
+			<integer>3645</integer>
 		</dict>
 		<key>21FFDED0-F3B5-4BA9-B44A-7D70767DB996</key>
 		<dict>
@@ -3812,23 +3886,23 @@ Output:
 			<key>xpos</key>
 			<integer>470</integer>
 			<key>ypos</key>
-			<integer>3245</integer>
+			<integer>3650</integer>
 		</dict>
 		<key>28141437-681E-4BCA-B8F1-58125EF20862</key>
 		<dict>
 			<key>xpos</key>
 			<integer>515</integer>
 			<key>ypos</key>
-			<integer>2875</integer>
+			<integer>3280</integer>
 		</dict>
 		<key>288E86FB-F6DC-4646-8EB2-51F5D7AB625E</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>1</integer>
 			<key>xpos</key>
-			<integer>1535</integer>
+			<integer>1590</integer>
 			<key>ypos</key>
-			<integer>2630</integer>
+			<integer>3215</integer>
 		</dict>
 		<key>2FAFA328-13EB-4A36-AF01-1B48832B413E</key>
 		<dict>
@@ -3853,16 +3927,16 @@ Output:
 			<key>colorindex</key>
 			<integer>10</integer>
 			<key>xpos</key>
-			<integer>1395</integer>
+			<integer>1610</integer>
 			<key>ypos</key>
-			<integer>1005</integer>
+			<integer>1120</integer>
 		</dict>
 		<key>328F7F6F-FA2A-4658-9494-6EDDEEDD0EED</key>
 		<dict>
 			<key>xpos</key>
 			<integer>2780</integer>
 			<key>ypos</key>
-			<integer>3080</integer>
+			<integer>3485</integer>
 		</dict>
 		<key>32C29380-4EBC-4BCA-917C-038BCAB23913</key>
 		<dict>
@@ -3885,9 +3959,9 @@ Output:
 		<key>384EF19C-91ED-40AF-87F2-FAAC64614B42</key>
 		<dict>
 			<key>xpos</key>
-			<integer>615</integer>
+			<integer>30</integer>
 			<key>ypos</key>
-			<integer>20</integer>
+			<integer>2730</integer>
 		</dict>
 		<key>3BF0541E-83DB-419B-B545-843976BAF63D</key>
 		<dict>
@@ -3896,16 +3970,16 @@ Output:
 			<key>note</key>
 			<string>Create/update tasks file</string>
 			<key>xpos</key>
-			<integer>1040</integer>
+			<integer>1255</integer>
 			<key>ypos</key>
-			<integer>1000</integer>
+			<integer>1115</integer>
 		</dict>
 		<key>3D4ECDDA-0A3F-4269-84FE-7330C71EA836</key>
 		<dict>
 			<key>xpos</key>
 			<integer>435</integer>
 			<key>ypos</key>
-			<integer>2765</integer>
+			<integer>3170</integer>
 		</dict>
 		<key>3E743918-6C52-45E7-B246-3C6E7CB228D3</key>
 		<dict>
@@ -3936,14 +4010,14 @@ Output:
 			<key>xpos</key>
 			<integer>1940</integer>
 			<key>ypos</key>
-			<integer>3085</integer>
+			<integer>3490</integer>
 		</dict>
 		<key>42D158C3-36E5-4DB8-8F7F-5D647313A681</key>
 		<dict>
 			<key>xpos</key>
 			<integer>225</integer>
 			<key>ypos</key>
-			<integer>2845</integer>
+			<integer>3250</integer>
 		</dict>
 		<key>44FE68FA-DF0E-41A5-9518-AD61D23AFAF8</key>
 		<dict>
@@ -3960,6 +4034,13 @@ Output:
 			<integer>445</integer>
 			<key>ypos</key>
 			<integer>615</integer>
+		</dict>
+		<key>462F9926-34BA-48DF-B95B-102D7DB5FF96</key>
+		<dict>
+			<key>xpos</key>
+			<integer>1255</integer>
+			<key>ypos</key>
+			<integer>930</integer>
 		</dict>
 		<key>47933AC7-E351-4D5A-8EDD-E42D930438B2</key>
 		<dict>
@@ -4002,7 +4083,7 @@ Output:
 			<key>xpos</key>
 			<integer>670</integer>
 			<key>ypos</key>
-			<integer>3215</integer>
+			<integer>3620</integer>
 		</dict>
 		<key>5031AAFF-D521-4D05-AAEB-D467396BF8F2</key>
 		<dict>
@@ -4029,14 +4110,14 @@ Output:
 			<key>xpos</key>
 			<integer>1480</integer>
 			<key>ypos</key>
-			<integer>3235</integer>
+			<integer>3640</integer>
 		</dict>
 		<key>59533E11-B0A3-4DF5-93FB-C948F606D9FA</key>
 		<dict>
 			<key>xpos</key>
 			<integer>750</integer>
 			<key>ypos</key>
-			<integer>2865</integer>
+			<integer>3270</integer>
 		</dict>
 		<key>5BDBDDBD-936B-42C7-951E-7C63C8A9CAA2</key>
 		<dict>
@@ -4060,9 +4141,9 @@ Input:
 Output:
 - original + new entry</string>
 			<key>xpos</key>
-			<integer>880</integer>
+			<integer>885</integer>
 			<key>ypos</key>
-			<integer>1000</integer>
+			<integer>1010</integer>
 		</dict>
 		<key>614F07F6-4B10-43E0-A998-8C85952D75A3</key>
 		<dict>
@@ -4091,7 +4172,7 @@ Output:
 			<key>xpos</key>
 			<integer>2775</integer>
 			<key>ypos</key>
-			<integer>3230</integer>
+			<integer>3635</integer>
 		</dict>
 		<key>68BB707C-0DC1-4051-9436-2BF07D44B433</key>
 		<dict>
@@ -4125,7 +4206,7 @@ Output:
 			<key>xpos</key>
 			<integer>2575</integer>
 			<key>ypos</key>
-			<integer>3360</integer>
+			<integer>3765</integer>
 		</dict>
 		<key>789CB64F-E033-4297-ACC3-D392B6F76ACE</key>
 		<dict>
@@ -4146,7 +4227,7 @@ Output:
 			<key>xpos</key>
 			<integer>2430</integer>
 			<key>ypos</key>
-			<integer>3265</integer>
+			<integer>3670</integer>
 		</dict>
 		<key>79E6287D-937C-4561-9B47-97D517E44A5D</key>
 		<dict>
@@ -4162,7 +4243,7 @@ Output:
 			<key>xpos</key>
 			<integer>1255</integer>
 			<key>ypos</key>
-			<integer>3485</integer>
+			<integer>3890</integer>
 		</dict>
 		<key>83A078F5-6EBC-44DA-AFCB-F90B9769A55A</key>
 		<dict>
@@ -4178,18 +4259,18 @@ Output:
 			<key>colorindex</key>
 			<integer>3</integer>
 			<key>xpos</key>
-			<integer>1740</integer>
+			<integer>1795</integer>
 			<key>ypos</key>
-			<integer>2505</integer>
+			<integer>3090</integer>
 		</dict>
 		<key>859D4FEC-D9E0-4F04-8F1F-B97A01A507ED</key>
 		<dict>
 			<key>note</key>
 			<string>check if line has already been referenced somewhere else</string>
 			<key>xpos</key>
-			<integer>1240</integer>
+			<integer>1295</integer>
 			<key>ypos</key>
-			<integer>2540</integer>
+			<integer>3125</integer>
 		</dict>
 		<key>85A02624-5476-43D3-8999-4896FBE6B871</key>
 		<dict>
@@ -4198,7 +4279,7 @@ Output:
 			<key>xpos</key>
 			<integer>575</integer>
 			<key>ypos</key>
-			<integer>3245</integer>
+			<integer>3650</integer>
 		</dict>
 		<key>87A3A9AF-2EE6-45D6-B773-10B234EA02B1</key>
 		<dict>
@@ -4207,7 +4288,7 @@ Output:
 			<key>xpos</key>
 			<integer>1030</integer>
 			<key>ypos</key>
-			<integer>2960</integer>
+			<integer>3365</integer>
 		</dict>
 		<key>8B05F86F-8E5D-42FE-A42B-EA6622A3CDE8</key>
 		<dict>
@@ -4221,7 +4302,7 @@ Output:
 			<key>xpos</key>
 			<integer>515</integer>
 			<key>ypos</key>
-			<integer>2765</integer>
+			<integer>3170</integer>
 		</dict>
 		<key>90638C6A-1096-4C07-8C70-342AED915819</key>
 		<dict>
@@ -4230,7 +4311,7 @@ Output:
 			<key>xpos</key>
 			<integer>1910</integer>
 			<key>ypos</key>
-			<integer>3240</integer>
+			<integer>3645</integer>
 		</dict>
 		<key>932118A0-48C7-4F7D-8B1F-6D82E8E690CE</key>
 		<dict>
@@ -4254,7 +4335,7 @@ Output:
 			<key>xpos</key>
 			<integer>1030</integer>
 			<key>ypos</key>
-			<integer>2700</integer>
+			<integer>3105</integer>
 		</dict>
 		<key>93EA1574-ED7A-470D-9BC2-DEBC2A05F0DD</key>
 		<dict>
@@ -4290,7 +4371,7 @@ Output:
 			<key>xpos</key>
 			<integer>435</integer>
 			<key>ypos</key>
-			<integer>2875</integer>
+			<integer>3280</integer>
 		</dict>
 		<key>9A79E662-7020-42C5-A58E-F444DC1A03D8</key>
 		<dict>
@@ -4331,16 +4412,16 @@ Output:
 			<key>colorindex</key>
 			<integer>11</integer>
 			<key>xpos</key>
-			<integer>1005</integer>
+			<integer>415</integer>
 			<key>ypos</key>
-			<integer>250</integer>
+			<integer>2875</integer>
 		</dict>
 		<key>AA1965B9-82F4-4AE1-ADC1-9286BAB8A1B2</key>
 		<dict>
 			<key>xpos</key>
 			<integer>1725</integer>
 			<key>ypos</key>
-			<integer>3225</integer>
+			<integer>3630</integer>
 		</dict>
 		<key>AA579910-CA2C-4A70-BE9E-BF637B63BCB6</key>
 		<dict>
@@ -4356,16 +4437,25 @@ Output:
 			<key>xpos</key>
 			<integer>1040</integer>
 			<key>ypos</key>
-			<integer>3240</integer>
+			<integer>3645</integer>
 		</dict>
 		<key>AFD9C286-D381-4D08-A1F2-3CAC9CA012D7</key>
 		<dict>
+			<key>colorindex</key>
+			<integer>8</integer>
 			<key>note</key>
 			<string>rebuild cache</string>
 			<key>xpos</key>
 			<integer>3010</integer>
 			<key>ypos</key>
-			<integer>3160</integer>
+			<integer>3565</integer>
+		</dict>
+		<key>B1C517F8-6E04-4D3B-8C0C-CD9C208B6934</key>
+		<dict>
+			<key>xpos</key>
+			<integer>1070</integer>
+			<key>ypos</key>
+			<integer>1030</integer>
 		</dict>
 		<key>C3914442-A188-4048-93A5-585CBACE7992</key>
 		<dict>
@@ -4374,14 +4464,14 @@ Output:
 			<key>xpos</key>
 			<integer>615</integer>
 			<key>ypos</key>
-			<integer>2735</integer>
+			<integer>3140</integer>
 		</dict>
 		<key>CA63B28D-B768-4533-90B5-6FB74A30DDD7</key>
 		<dict>
 			<key>xpos</key>
 			<integer>45</integer>
 			<key>ypos</key>
-			<integer>2850</integer>
+			<integer>3255</integer>
 		</dict>
 		<key>CF41380B-F98E-425B-9965-243207FE40A5</key>
 		<dict>
@@ -4409,9 +4499,9 @@ Output:
 			<key>note</key>
 			<string>OneUpdater</string>
 			<key>xpos</key>
-			<integer>2640</integer>
+			<integer>4840</integer>
 			<key>ypos</key>
-			<integer>1010</integer>
+			<integer>1265</integer>
 		</dict>
 		<key>DE7A7E9A-F7E0-4528-A18B-943AF3A263B6</key>
 		<dict>
@@ -4425,7 +4515,7 @@ Output:
 			<key>xpos</key>
 			<integer>855</integer>
 			<key>ypos</key>
-			<integer>3220</integer>
+			<integer>3625</integer>
 		</dict>
 		<key>DEB11EA7-3ADC-4C12-9924-07ECB4210F51</key>
 		<dict>
@@ -4441,7 +4531,7 @@ Output:
 			<key>xpos</key>
 			<integer>45</integer>
 			<key>ypos</key>
-			<integer>3215</integer>
+			<integer>3620</integer>
 		</dict>
 		<key>E36B0FBB-A8B4-4E0D-9D1D-55CBDEA71908</key>
 		<dict>
@@ -4482,7 +4572,7 @@ Output:
 			<key>xpos</key>
 			<integer>3005</integer>
 			<key>ypos</key>
-			<integer>2990</integer>
+			<integer>3395</integer>
 		</dict>
 		<key>E9EE3256-7694-44A4-B076-BDDAC5002701</key>
 		<dict>
@@ -4491,9 +4581,9 @@ Output:
 			<key>note</key>
 			<string>Open note in Obsidian</string>
 			<key>xpos</key>
-			<integer>1000</integer>
+			<integer>415</integer>
 			<key>ypos</key>
-			<integer>20</integer>
+			<integer>2730</integer>
 		</dict>
 		<key>EE2F54FB-7F52-47C0-BAB5-C22C3F7EB12B</key>
 		<dict>
@@ -4511,25 +4601,27 @@ Output:
 			<key>xpos</key>
 			<integer>2025</integer>
 			<key>ypos</key>
-			<integer>3210</integer>
+			<integer>3615</integer>
 		</dict>
 		<key>F1E08E57-0CDD-4628-8E1E-28A259BD8594</key>
 		<dict>
+			<key>colorindex</key>
+			<integer>8</integer>
 			<key>note</key>
 			<string>rebuild cache</string>
 			<key>xpos</key>
 			<integer>1255</integer>
 			<key>ypos</key>
-			<integer>3330</integer>
+			<integer>3735</integer>
 		</dict>
 		<key>F4EA825B-1037-42A1-B92F-6C44B8CCEFC0</key>
 		<dict>
 			<key>note</key>
 			<string>insert reference code</string>
 			<key>xpos</key>
-			<integer>1435</integer>
+			<integer>1490</integer>
 			<key>ypos</key>
-			<integer>2660</integer>
+			<integer>3245</integer>
 		</dict>
 		<key>FBB5DD0B-3101-41B0-8F21-3C3BB2151F27</key>
 		<dict>
@@ -4540,7 +4632,7 @@ Output:
 			<key>xpos</key>
 			<integer>1560</integer>
 			<key>ypos</key>
-			<integer>3205</integer>
+			<integer>3610</integer>
 		</dict>
 		<key>FC50A564-044C-4F33-96C8-589521AF9178</key>
 		<dict>
@@ -4556,7 +4648,7 @@ Output:
 			<key>xpos</key>
 			<integer>930</integer>
 			<key>ypos</key>
-			<integer>2730</integer>
+			<integer>3135</integer>
 		</dict>
 		<key>FDF6A561-6057-49F6-BC4F-F7E343BC5AB3</key>
 		<dict>
