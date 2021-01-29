@@ -726,7 +726,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>D96B9DE5-61A7-403B-865F-4D99A846A314</string>
+				<string>CF41380B-F98E-425B-9965-243207FE40A5</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -955,7 +955,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>96DAB4F9-647B-4DB6-818B-5B8FC8E0ABB7</string>
+				<string>D5C60D11-3ABC-4D2E-A5BF-B4E7A1186082</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -964,11 +964,11 @@
 				<false/>
 			</dict>
 		</array>
-		<key>D96B9DE5-61A7-403B-865F-4D99A846A314</key>
+		<key>D5C60D11-3ABC-4D2E-A5BF-B4E7A1186082</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>DA51ADB1-1F3A-495F-9B55-1CCC1F0D6E4C</string>
+				<string>61EB424F-3040-46C2-9784-F0816FE12D12</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -980,7 +980,7 @@
 			</dict>
 			<dict>
 				<key>destinationuid</key>
-				<string>CF41380B-F98E-425B-9965-243207FE40A5</string>
+				<string>96DAB4F9-647B-4DB6-818B-5B8FC8E0ABB7</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -2483,7 +2483,7 @@ Application('com.runningwithcrayons.Alfred').setConfiguration('title', {
 			<key>type</key>
 			<string>alfred.workflow.output.notification</string>
 			<key>uid</key>
-			<string>DA51ADB1-1F3A-495F-9B55-1CCC1F0D6E4C</string>
+			<string>61EB424F-3040-46C2-9784-F0816FE12D12</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -2523,6 +2523,29 @@ Application('com.runningwithcrayons.Alfred').setConfiguration('title', {
 			<string>A32E8F7F-B120-4433-8574-1A9FFA903777</string>
 			<key>version</key>
 			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>script</key>
+				<string></string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string>scripts/append_to_heading.py</string>
+				<key>type</key>
+				<integer>8</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>CF41380B-F98E-425B-9965-243207FE40A5</string>
+			<key>version</key>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -2576,7 +2599,7 @@ echo -n "$(cat "$expanded")"</string>
 			<key>type</key>
 			<string>alfred.workflow.utility.conditional</string>
 			<key>uid</key>
-			<string>D96B9DE5-61A7-403B-865F-4D99A846A314</string>
+			<string>D5C60D11-3ABC-4D2E-A5BF-B4E7A1186082</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -2645,29 +2668,6 @@ echo -n "$(cat "$expanded")"</string>
 			<string>96DAB4F9-647B-4DB6-818B-5B8FC8E0ABB7</string>
 			<key>version</key>
 			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>0</integer>
-				<key>script</key>
-				<string></string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string>scripts/append_to_heading.py</string>
-				<key>type</key>
-				<integer>8</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>CF41380B-F98E-425B-9965-243207FE40A5</string>
-			<key>version</key>
-			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -4228,6 +4228,13 @@ Output:
 			<key>ypos</key>
 			<integer>1675</integer>
 		</dict>
+		<key>61EB424F-3040-46C2-9784-F0816FE12D12</key>
+		<dict>
+			<key>xpos</key>
+			<integer>1185</integer>
+			<key>ypos</key>
+			<integer>2235</integer>
+		</dict>
 		<key>63496218-CF6F-460F-9997-117CBD31D92B</key>
 		<dict>
 			<key>colorindex</key>
@@ -4436,9 +4443,9 @@ Output:
 			<key>note</key>
 			<string>CREATE/UPDATE FILE</string>
 			<key>xpos</key>
-			<integer>1095</integer>
+			<integer>1215</integer>
 			<key>ypos</key>
-			<integer>2415</integer>
+			<integer>2525</integer>
 		</dict>
 		<key>97DF740A-F327-49DE-86C9-D838CFE72410</key>
 		<dict>
@@ -4562,23 +4569,16 @@ Input:
 Output:
 - original + new entry</string>
 			<key>xpos</key>
-			<integer>920</integer>
+			<integer>795</integer>
 			<key>ypos</key>
-			<integer>2415</integer>
+			<integer>2370</integer>
 		</dict>
-		<key>D96B9DE5-61A7-403B-865F-4D99A846A314</key>
+		<key>D5C60D11-3ABC-4D2E-A5BF-B4E7A1186082</key>
 		<dict>
 			<key>xpos</key>
-			<integer>765</integer>
+			<integer>1025</integer>
 			<key>ypos</key>
-			<integer>2390</integer>
-		</dict>
-		<key>DA51ADB1-1F3A-495F-9B55-1CCC1F0D6E4C</key>
-		<dict>
-			<key>xpos</key>
-			<integer>925</integer>
-			<key>ypos</key>
-			<integer>2245</integer>
+			<integer>2380</integer>
 		</dict>
 		<key>DA543B3F-CBDE-43DA-AD64-B0E89627C43E</key>
 		<dict>
