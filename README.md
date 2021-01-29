@@ -8,6 +8,10 @@ This is an [Alfred](https://alfredapp.com) workflow containing various actions t
 
 ---
 
+## System requirements
+- macOS 10.15 (Catalina) or above
+- Python3 installation in default location (`/usr/bin/python3`)
+
 ## Release Notes
 
 ### v2.2.0
