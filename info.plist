@@ -182,18 +182,7 @@
 			</dict>
 		</array>
 		<key>328F7F6F-FA2A-4658-9494-6EDDEEDD0EED</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>AFD9C286-D381-4D08-A1F2-3CAC9CA012D7</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
+		<array/>
 		<key>32C29380-4EBC-4BCA-917C-038BCAB23913</key>
 		<array>
 			<dict>
@@ -401,7 +390,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>DE91CB7E-2F0B-42CC-B059-DB2D4EB07E71</string>
+				<string>5892EEEC-DCF6-495C-82A1-CC951F80851D</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -503,18 +492,7 @@
 		<key>614F07F6-4B10-43E0-A998-8C85952D75A3</key>
 		<array/>
 		<key>65933EB2-9F0E-4DA1-B167-598004DC247A</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>AFD9C286-D381-4D08-A1F2-3CAC9CA012D7</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
+		<array/>
 		<key>69580EB9-4634-4BEA-AE49-6881DDCD0D8C</key>
 		<array>
 			<dict>
@@ -592,8 +570,6 @@
 				<false/>
 			</dict>
 		</array>
-		<key>7A5353CE-D2EE-44FE-8490-EF906EBB4A52</key>
-		<array/>
 		<key>859D4FEC-D9E0-4F04-8F1F-B97A01A507ED</key>
 		<array>
 			<dict>
@@ -868,41 +844,6 @@
 				<false/>
 			</dict>
 		</array>
-		<key>ACADA5E4-9F8B-4EBC-BD79-0DD48DCF2291</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>5892EEEC-DCF6-495C-82A1-CC951F80851D</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>sourceoutputuid</key>
-				<string>4DC464CA-FE94-4BA7-8179-C07EACD016DF</string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>F1E08E57-0CDD-4628-8E1E-28A259BD8594</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>7A5353CE-D2EE-44FE-8490-EF906EBB4A52</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
 		<key>B1C517F8-6E04-4D3B-8C0C-CD9C208B6934</key>
 		<array>
 			<dict>
@@ -1002,19 +943,6 @@
 				<false/>
 			</dict>
 		</array>
-		<key>DE91CB7E-2F0B-42CC-B059-DB2D4EB07E71</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>ACADA5E4-9F8B-4EBC-BD79-0DD48DCF2291</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
 		<key>DEB11EA7-3ADC-4C12-9924-07ECB4210F51</key>
 		<array>
 			<dict>
@@ -1103,19 +1031,6 @@
 				<false/>
 			</dict>
 		</array>
-		<key>E8EAD1DE-928E-4955-9BBD-3CDAA3B3492C</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>AFD9C286-D381-4D08-A1F2-3CAC9CA012D7</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
 		<key>EE2F54FB-7F52-47C0-BAB5-C22C3F7EB12B</key>
 		<array>
 			<dict>
@@ -1134,19 +1049,6 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>1DFE94E6-ECE5-435A-AB12-5471581A1E33</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-		<key>F1E08E57-0CDD-4628-8E1E-28A259BD8594</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>5892EEEC-DCF6-495C-82A1-CC951F80851D</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -3168,27 +3070,6 @@ sys.stdout.write(out)</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argumenttype</key>
-				<integer>2</integer>
-				<key>keyword</key>
-				<string>ou-cache</string>
-				<key>subtext</key>
-				<string></string>
-				<key>text</key>
-				<string>Rebuild Related Notes cache.</string>
-				<key>withspace</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>E8EAD1DE-928E-4955-9BBD-3CDAA3B3492C</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>lastpathcomponent</key>
 				<false/>
 				<key>onlyshowifquerypopulated</key>
@@ -3227,29 +3108,6 @@ sys.stdout.write(out)</string>
 			<string>40F90A4E-72B0-49DF-B10C-DF351C19C05A</string>
 			<key>version</key>
 			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>0</integer>
-				<key>script</key>
-				<string></string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string>scripts/build_cache.py</string>
-				<key>type</key>
-				<integer>8</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>AFD9C286-D381-4D08-A1F2-3CAC9CA012D7</string>
-			<key>version</key>
-			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -3307,7 +3165,7 @@ echo -n "$(find "$expanded" -type f -print0 | xargs -0 grep -l "$ref")"</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
-				<string>scripts/related_tf_idf.py</string>
+				<string>scripts/related_sqlite.py</string>
 				<key>type</key>
 				<integer>8</integer>
 			</dict>
@@ -3405,34 +3263,6 @@ echo -n $ref</string>
 			<string>4E513691-C33C-4E26-92C8-31F5C66A9AE9</string>
 			<key>version</key>
 			<integer>3</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>script</key>
-				<string>FILE=cache.p
-if [ -f "$FILE" ]; then
-    echo -n "True"
-else 
-    echo -n "False"
-fi</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>DE91CB7E-2F0B-42CC-B059-DB2D4EB07E71</string>
-			<key>version</key>
-			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -3547,36 +3377,6 @@ fi</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>conditions</key>
-				<array>
-					<dict>
-						<key>inputstring</key>
-						<string></string>
-						<key>matchcasesensitive</key>
-						<false/>
-						<key>matchmode</key>
-						<integer>0</integer>
-						<key>matchstring</key>
-						<string>True</string>
-						<key>outputlabel</key>
-						<string>Find related</string>
-						<key>uid</key>
-						<string>4DC464CA-FE94-4BA7-8179-C07EACD016DF</string>
-					</dict>
-				</array>
-				<key>elselabel</key>
-				<string>Build cache</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.conditional</string>
-			<key>uid</key>
-			<string>ACADA5E4-9F8B-4EBC-BD79-0DD48DCF2291</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>argument</key>
 				<string></string>
 				<key>passthroughargument</key>
@@ -3654,29 +3454,6 @@ fi</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>0</integer>
-				<key>script</key>
-				<string></string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string>scripts/build_cache.py</string>
-				<key>type</key>
-				<integer>8</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>F1E08E57-0CDD-4628-8E1E-28A259BD8594</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>matchmode</key>
 				<integer>0</integer>
 				<key>matchstring</key>
@@ -3695,27 +3472,6 @@ fi</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>lastpathcomponent</key>
-				<false/>
-				<key>onlyshowifquerypopulated</key>
-				<false/>
-				<key>removeextension</key>
-				<false/>
-				<key>text</key>
-				<string>This may take a while. Next time it will be a lot quicker.</string>
-				<key>title</key>
-				<string>Indexing notes</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.notification</string>
-			<key>uid</key>
-			<string>7A5353CE-D2EE-44FE-8490-EF906EBB4A52</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
 	</array>
 	<key>readme</key>
 	<string># Assorted Obsidian.md utilities
@@ -3729,6 +3485,10 @@ This is an [Alfred](https://alfredapp.com) workflow containing various actions t
 ---
 
 ## Release Notes
+
+### v2.3.0
+- Refactored Related Notes so that it doesn't depend so much on external python packages.
+- Significantly cut back on workflow size
 
 ### v2.2.0
 - Type `/related` anywere on your note and the workflow will insert a list of related notes, based on content similarity. It may take some time, though. Like, 10 seconds on a newish macbook and 2000+ notes.
@@ -4319,13 +4079,6 @@ Output:
 			<key>ypos</key>
 			<integer>735</integer>
 		</dict>
-		<key>7A5353CE-D2EE-44FE-8490-EF906EBB4A52</key>
-		<dict>
-			<key>xpos</key>
-			<integer>1255</integer>
-			<key>ypos</key>
-			<integer>3890</integer>
-		</dict>
 		<key>83A078F5-6EBC-44DA-AFCB-F90B9769A55A</key>
 		<dict>
 			<key>colorindex</key>
@@ -4513,24 +4266,6 @@ Output:
 			<key>ypos</key>
 			<integer>1010</integer>
 		</dict>
-		<key>ACADA5E4-9F8B-4EBC-BD79-0DD48DCF2291</key>
-		<dict>
-			<key>xpos</key>
-			<integer>1040</integer>
-			<key>ypos</key>
-			<integer>3645</integer>
-		</dict>
-		<key>AFD9C286-D381-4D08-A1F2-3CAC9CA012D7</key>
-		<dict>
-			<key>colorindex</key>
-			<integer>8</integer>
-			<key>note</key>
-			<string>rebuild cache</string>
-			<key>xpos</key>
-			<integer>3010</integer>
-			<key>ypos</key>
-			<integer>3565</integer>
-		</dict>
 		<key>B1C517F8-6E04-4D3B-8C0C-CD9C208B6934</key>
 		<dict>
 			<key>xpos</key>
@@ -4598,13 +4333,6 @@ Output:
 			<key>ypos</key>
 			<integer>1760</integer>
 		</dict>
-		<key>DE91CB7E-2F0B-42CC-B059-DB2D4EB07E71</key>
-		<dict>
-			<key>xpos</key>
-			<integer>855</integer>
-			<key>ypos</key>
-			<integer>3625</integer>
-		</dict>
 		<key>DEB11EA7-3ADC-4C12-9924-07ECB4210F51</key>
 		<dict>
 			<key>note</key>
@@ -4655,13 +4383,6 @@ Output:
 			<key>ypos</key>
 			<integer>420</integer>
 		</dict>
-		<key>E8EAD1DE-928E-4955-9BBD-3CDAA3B3492C</key>
-		<dict>
-			<key>xpos</key>
-			<integer>3005</integer>
-			<key>ypos</key>
-			<integer>3395</integer>
-		</dict>
 		<key>E9EE3256-7694-44A4-B076-BDDAC5002701</key>
 		<dict>
 			<key>colorindex</key>
@@ -4686,21 +4407,13 @@ Output:
 		<dict>
 			<key>colorindex</key>
 			<integer>8</integer>
+			<key>note</key>
+			<string>doc-similarity-lite python module by dancromartie
+https://github.com/dancromartie/doc-similarity-lite</string>
 			<key>xpos</key>
 			<integer>2025</integer>
 			<key>ypos</key>
 			<integer>3615</integer>
-		</dict>
-		<key>F1E08E57-0CDD-4628-8E1E-28A259BD8594</key>
-		<dict>
-			<key>colorindex</key>
-			<integer>8</integer>
-			<key>note</key>
-			<string>rebuild cache</string>
-			<key>xpos</key>
-			<integer>1255</integer>
-			<key>ypos</key>
-			<integer>3735</integer>
 		</dict>
 		<key>F4EA825B-1037-42A1-B92F-6C44B8CCEFC0</key>
 		<dict>
@@ -4762,10 +4475,6 @@ Output:
 		<string>Notas Diárias</string>
 		<key>journal_tag</key>
 		<string>diário</string>
-		<key>related_ignore_words</key>
-		<string>tags aliases meta</string>
-		<key>related_max_results</key>
-		<string>10</string>
 		<key>searches_heading</key>
 		<string>Pesquisas</string>
 		<key>task_tag</key>
@@ -4788,16 +4497,16 @@ Output:
 		<string>tasks_heading</string>
 		<string>task_tag</string>
 		<string>daily_folder</string>
-		<string>url</string>
+		<string>vault_path</string>
 		<string>journal_tag</string>
 		<string>title</string>
 		<string>searches_heading</string>
-		<string>vault_path</string>
 		<string>tasks_file</string>
 		<string>vault_name</string>
+		<string>url</string>
 	</array>
 	<key>version</key>
-	<string>2.2.2</string>
+	<string>2.3.0</string>
 	<key>webaddress</key>
 	<string>https://github.com/macedotavares/obsidian-utilities</string>
 </dict>
