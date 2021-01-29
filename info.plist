@@ -3129,6 +3129,49 @@ sys.stdout.write(out)</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>keyword</key>
+				<string>related</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.snippet</string>
+			<key>uid</key>
+			<string>E1EF37D8-51FB-4480-B58A-9DA1177AAD43</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>ref=$(openssl rand -base64 8 |md5 |head -c6;echo)
+
+
+echo -n $ref</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>171C445C-0615-45CC-9C68-83ADBF00066A</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>concurrently</key>
 				<false/>
 				<key>escaping</key>
@@ -3152,6 +3195,25 @@ echo -n "$(find "$expanded" -type f -print0 | xargs -0 grep -l "$ref")"</string>
 			<string>FBB5DD0B-3101-41B0-8F21-3C3BB2151F27</string>
 			<key>version</key>
 			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<true/>
+				<key>clipboardtext</key>
+				<string>{var:wait_message}</string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
+				<key>transient</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>4E513691-C33C-4E26-92C8-31F5C66A9AE9</string>
+			<key>version</key>
+			<integer>3</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -3201,68 +3263,6 @@ echo -n "$(cat "$expanded")"</string>
 			<string>151889BC-F4C2-4134-AE03-38463A6B91B5</string>
 			<key>version</key>
 			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>focusedappvariable</key>
-				<false/>
-				<key>focusedappvariablename</key>
-				<string></string>
-				<key>keyword</key>
-				<string>related</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.trigger.snippet</string>
-			<key>uid</key>
-			<string>E1EF37D8-51FB-4480-B58A-9DA1177AAD43</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>script</key>
-				<string>ref=$(openssl rand -base64 8 |md5 |head -c6;echo)
-
-
-echo -n $ref</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>171C445C-0615-45CC-9C68-83ADBF00066A</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>autopaste</key>
-				<true/>
-				<key>clipboardtext</key>
-				<string>{var:wait_message}</string>
-				<key>ignoredynamicplaceholders</key>
-				<false/>
-				<key>transient</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.clipboard</string>
-			<key>uid</key>
-			<string>4E513691-C33C-4E26-92C8-31F5C66A9AE9</string>
-			<key>version</key>
-			<integer>3</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -3324,6 +3324,26 @@ echo -n $ref</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>ref</key>
+					<string>{query}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>24426A96-FDA8-4D32-84BF-CBD1F1C4F28D</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>seconds</key>
 				<string>3</string>
 			</dict>
@@ -3331,6 +3351,33 @@ echo -n $ref</string>
 			<string>alfred.workflow.utility.delay</string>
 			<key>uid</key>
 			<string>5892EEEC-DCF6-495C-82A1-CC951F80851D</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>wait_message</key>
+					<string>---
+
+**Searching for related notes.**
+⏳ This may take a while, depending on how fast your computer is and how many notes there are in your vault.
+⚠️ Please don't type anything else on this note before the workflow finishes. It will be overwritten, along with this message.
+`block-id: {var:ref}`
+
+---</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>85A02624-5476-43D3-8999-4896FBE6B871</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -3371,53 +3418,6 @@ echo -n $ref</string>
 			<string>alfred.workflow.utility.argument</string>
 			<key>uid</key>
 			<string>1DFE94E6-ECE5-435A-AB12-5471581A1E33</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argument</key>
-				<string></string>
-				<key>passthroughargument</key>
-				<false/>
-				<key>variables</key>
-				<dict>
-					<key>ref</key>
-					<string>{query}</string>
-				</dict>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.argument</string>
-			<key>uid</key>
-			<string>24426A96-FDA8-4D32-84BF-CBD1F1C4F28D</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argument</key>
-				<string></string>
-				<key>passthroughargument</key>
-				<false/>
-				<key>variables</key>
-				<dict>
-					<key>wait_message</key>
-					<string>---
-
-**Searching for related notes.**
-⏳ This may take a while, depending on how fast your computer is and how many notes there are in your vault.
-⚠️ Please don't type anything else on this note before the workflow finishes. It will be overwritten, along with this message.
-`block-id: {var:ref}`
-
----</string>
-				</dict>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.argument</string>
-			<key>uid</key>
-			<string>85A02624-5476-43D3-8999-4896FBE6B871</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -3640,9 +3640,9 @@ Found a bug? Want to make a suggestion? [Open an issue](https://github.com/maced
 		<key>02CB464C-2530-4EF3-AD99-E3EFD98DC56D</key>
 		<dict>
 			<key>xpos</key>
-			<integer>2570</integer>
+			<integer>1975</integer>
 			<key>ypos</key>
-			<integer>3595</integer>
+			<integer>3605</integer>
 		</dict>
 		<key>05D670E2-E454-449E-AE4E-D584071A36CA</key>
 		<dict>
@@ -3677,9 +3677,9 @@ Input:
 Output:
 - File content</string>
 			<key>xpos</key>
-			<integer>2255</integer>
+			<integer>1660</integer>
 			<key>ypos</key>
-			<integer>3615</integer>
+			<integer>3625</integer>
 		</dict>
 		<key>171C445C-0615-45CC-9C68-83ADBF00066A</key>
 		<dict>
@@ -3693,9 +3693,9 @@ Output:
 		<key>1DFE94E6-ECE5-435A-AB12-5471581A1E33</key>
 		<dict>
 			<key>xpos</key>
-			<integer>2175</integer>
+			<integer>1580</integer>
 			<key>ypos</key>
-			<integer>3645</integer>
+			<integer>3655</integer>
 		</dict>
 		<key>21FFDED0-F3B5-4BA9-B44A-7D70767DB996</key>
 		<dict>
@@ -3768,9 +3768,9 @@ Output:
 		<key>328F7F6F-FA2A-4658-9494-6EDDEEDD0EED</key>
 		<dict>
 			<key>xpos</key>
-			<integer>2780</integer>
+			<integer>2185</integer>
 			<key>ypos</key>
-			<integer>3485</integer>
+			<integer>3495</integer>
 		</dict>
 		<key>32C29380-4EBC-4BCA-917C-038BCAB23913</key>
 		<dict>
@@ -3842,9 +3842,9 @@ Output:
 		<key>40F90A4E-72B0-49DF-B10C-DF351C19C05A</key>
 		<dict>
 			<key>xpos</key>
-			<integer>1940</integer>
+			<integer>1345</integer>
 			<key>ypos</key>
-			<integer>3490</integer>
+			<integer>3500</integer>
 		</dict>
 		<key>42D158C3-36E5-4DB8-8F7F-5D647313A681</key>
 		<dict>
@@ -3942,9 +3942,9 @@ Output:
 		<key>5892EEEC-DCF6-495C-82A1-CC951F80851D</key>
 		<dict>
 			<key>xpos</key>
-			<integer>1480</integer>
+			<integer>885</integer>
 			<key>ypos</key>
-			<integer>3640</integer>
+			<integer>3650</integer>
 		</dict>
 		<key>59533E11-B0A3-4DF5-93FB-C948F606D9FA</key>
 		<dict>
@@ -4011,9 +4011,9 @@ Output:
 			<key>note</key>
 			<string>CREATE/UPDATE FILE</string>
 			<key>xpos</key>
-			<integer>2775</integer>
+			<integer>2180</integer>
 			<key>ypos</key>
-			<integer>3635</integer>
+			<integer>3645</integer>
 		</dict>
 		<key>68BB707C-0DC1-4051-9436-2BF07D44B433</key>
 		<dict>
@@ -4045,9 +4045,9 @@ Output:
 		<key>6D181CBE-1CC2-4BA6-A468-08832E554504</key>
 		<dict>
 			<key>xpos</key>
-			<integer>2575</integer>
+			<integer>1980</integer>
 			<key>ypos</key>
-			<integer>3765</integer>
+			<integer>3775</integer>
 		</dict>
 		<key>789CB64F-E033-4297-ACC3-D392B6F76ACE</key>
 		<dict>
@@ -4066,9 +4066,9 @@ Output:
 		<key>79120EB7-2898-4817-8F77-113D77A83594</key>
 		<dict>
 			<key>xpos</key>
-			<integer>2430</integer>
+			<integer>1835</integer>
 			<key>ypos</key>
-			<integer>3670</integer>
+			<integer>3680</integer>
 		</dict>
 		<key>79E6287D-937C-4561-9B47-97D517E44A5D</key>
 		<dict>
@@ -4143,9 +4143,9 @@ Output:
 			<key>note</key>
 			<string>FILE TO COMPARE</string>
 			<key>xpos</key>
-			<integer>1910</integer>
+			<integer>1315</integer>
 			<key>ypos</key>
-			<integer>3645</integer>
+			<integer>3655</integer>
 		</dict>
 		<key>932118A0-48C7-4F7D-8B1F-6D82E8E690CE</key>
 		<dict>
@@ -4253,9 +4253,9 @@ Output:
 		<key>AA1965B9-82F4-4AE1-ADC1-9286BAB8A1B2</key>
 		<dict>
 			<key>xpos</key>
-			<integer>1725</integer>
+			<integer>1130</integer>
 			<key>ypos</key>
-			<integer>3630</integer>
+			<integer>3640</integer>
 		</dict>
 		<key>AA579910-CA2C-4A70-BE9E-BF637B63BCB6</key>
 		<dict>
@@ -4411,9 +4411,9 @@ Output:
 			<string>doc-similarity-lite python module by dancromartie
 https://github.com/dancromartie/doc-similarity-lite</string>
 			<key>xpos</key>
-			<integer>2025</integer>
+			<integer>1430</integer>
 			<key>ypos</key>
-			<integer>3615</integer>
+			<integer>3625</integer>
 		</dict>
 		<key>F4EA825B-1037-42A1-B92F-6C44B8CCEFC0</key>
 		<dict>
@@ -4431,9 +4431,9 @@ https://github.com/dancromartie/doc-similarity-lite</string>
 			<key>note</key>
 			<string>Get the file name of the source note</string>
 			<key>xpos</key>
-			<integer>1560</integer>
+			<integer>965</integer>
 			<key>ypos</key>
-			<integer>3610</integer>
+			<integer>3620</integer>
 		</dict>
 		<key>FC50A564-044C-4F33-96C8-589521AF9178</key>
 		<dict>
