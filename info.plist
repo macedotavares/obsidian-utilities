@@ -401,7 +401,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>DE91CB7E-2F0B-42CC-B059-DB2D4EB07E71</string>
+				<string>5892EEEC-DCF6-495C-82A1-CC951F80851D</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -592,8 +592,6 @@
 				<false/>
 			</dict>
 		</array>
-		<key>7A5353CE-D2EE-44FE-8490-EF906EBB4A52</key>
-		<array/>
 		<key>859D4FEC-D9E0-4F04-8F1F-B97A01A507ED</key>
 		<array>
 			<dict>
@@ -868,41 +866,6 @@
 				<false/>
 			</dict>
 		</array>
-		<key>ACADA5E4-9F8B-4EBC-BD79-0DD48DCF2291</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>5892EEEC-DCF6-495C-82A1-CC951F80851D</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>sourceoutputuid</key>
-				<string>4DC464CA-FE94-4BA7-8179-C07EACD016DF</string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>F1E08E57-0CDD-4628-8E1E-28A259BD8594</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>7A5353CE-D2EE-44FE-8490-EF906EBB4A52</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
 		<key>B1C517F8-6E04-4D3B-8C0C-CD9C208B6934</key>
 		<array>
 			<dict>
@@ -994,19 +957,6 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>5031AAFF-D521-4D05-AAEB-D467396BF8F2</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-		<key>DE91CB7E-2F0B-42CC-B059-DB2D4EB07E71</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>ACADA5E4-9F8B-4EBC-BD79-0DD48DCF2291</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -1134,19 +1084,6 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>1DFE94E6-ECE5-435A-AB12-5471581A1E33</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-		<key>F1E08E57-0CDD-4628-8E1E-28A259BD8594</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>5892EEEC-DCF6-495C-82A1-CC951F80851D</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -3307,7 +3244,7 @@ echo -n "$(find "$expanded" -type f -print0 | xargs -0 grep -l "$ref")"</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
-				<string>scripts/related_tf_idf.py</string>
+				<string>scripts/related_sqlite.py</string>
 				<key>type</key>
 				<integer>8</integer>
 			</dict>
@@ -3405,34 +3342,6 @@ echo -n $ref</string>
 			<string>4E513691-C33C-4E26-92C8-31F5C66A9AE9</string>
 			<key>version</key>
 			<integer>3</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>script</key>
-				<string>FILE=cache.p
-if [ -f "$FILE" ]; then
-    echo -n "True"
-else 
-    echo -n "False"
-fi</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>DE91CB7E-2F0B-42CC-B059-DB2D4EB07E71</string>
-			<key>version</key>
-			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -3547,36 +3456,6 @@ fi</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>conditions</key>
-				<array>
-					<dict>
-						<key>inputstring</key>
-						<string></string>
-						<key>matchcasesensitive</key>
-						<false/>
-						<key>matchmode</key>
-						<integer>0</integer>
-						<key>matchstring</key>
-						<string>True</string>
-						<key>outputlabel</key>
-						<string>Find related</string>
-						<key>uid</key>
-						<string>4DC464CA-FE94-4BA7-8179-C07EACD016DF</string>
-					</dict>
-				</array>
-				<key>elselabel</key>
-				<string>Build cache</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.conditional</string>
-			<key>uid</key>
-			<string>ACADA5E4-9F8B-4EBC-BD79-0DD48DCF2291</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>argument</key>
 				<string></string>
 				<key>passthroughargument</key>
@@ -3654,29 +3533,6 @@ fi</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>0</integer>
-				<key>script</key>
-				<string></string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string>scripts/build_cache.py</string>
-				<key>type</key>
-				<integer>8</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>F1E08E57-0CDD-4628-8E1E-28A259BD8594</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>matchmode</key>
 				<integer>0</integer>
 				<key>matchstring</key>
@@ -3694,27 +3550,6 @@ fi</string>
 			<string>6D181CBE-1CC2-4BA6-A468-08832E554504</string>
 			<key>version</key>
 			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>lastpathcomponent</key>
-				<false/>
-				<key>onlyshowifquerypopulated</key>
-				<false/>
-				<key>removeextension</key>
-				<false/>
-				<key>text</key>
-				<string>This may take a while. Next time it will be a lot quicker.</string>
-				<key>title</key>
-				<string>Indexing notes</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.notification</string>
-			<key>uid</key>
-			<string>7A5353CE-D2EE-44FE-8490-EF906EBB4A52</string>
-			<key>version</key>
-			<integer>1</integer>
 		</dict>
 	</array>
 	<key>readme</key>
@@ -4319,13 +4154,6 @@ Output:
 			<key>ypos</key>
 			<integer>735</integer>
 		</dict>
-		<key>7A5353CE-D2EE-44FE-8490-EF906EBB4A52</key>
-		<dict>
-			<key>xpos</key>
-			<integer>1255</integer>
-			<key>ypos</key>
-			<integer>3890</integer>
-		</dict>
 		<key>83A078F5-6EBC-44DA-AFCB-F90B9769A55A</key>
 		<dict>
 			<key>colorindex</key>
@@ -4513,13 +4341,6 @@ Output:
 			<key>ypos</key>
 			<integer>1010</integer>
 		</dict>
-		<key>ACADA5E4-9F8B-4EBC-BD79-0DD48DCF2291</key>
-		<dict>
-			<key>xpos</key>
-			<integer>1040</integer>
-			<key>ypos</key>
-			<integer>3645</integer>
-		</dict>
 		<key>AFD9C286-D381-4D08-A1F2-3CAC9CA012D7</key>
 		<dict>
 			<key>colorindex</key>
@@ -4597,13 +4418,6 @@ Output:
 			<integer>200</integer>
 			<key>ypos</key>
 			<integer>1760</integer>
-		</dict>
-		<key>DE91CB7E-2F0B-42CC-B059-DB2D4EB07E71</key>
-		<dict>
-			<key>xpos</key>
-			<integer>855</integer>
-			<key>ypos</key>
-			<integer>3625</integer>
 		</dict>
 		<key>DEB11EA7-3ADC-4C12-9924-07ECB4210F51</key>
 		<dict>
@@ -4690,17 +4504,6 @@ Output:
 			<integer>2025</integer>
 			<key>ypos</key>
 			<integer>3615</integer>
-		</dict>
-		<key>F1E08E57-0CDD-4628-8E1E-28A259BD8594</key>
-		<dict>
-			<key>colorindex</key>
-			<integer>8</integer>
-			<key>note</key>
-			<string>rebuild cache</string>
-			<key>xpos</key>
-			<integer>1255</integer>
-			<key>ypos</key>
-			<integer>3735</integer>
 		</dict>
 		<key>F4EA825B-1037-42A1-B92F-6C44B8CCEFC0</key>
 		<dict>
@@ -4791,13 +4594,13 @@ Output:
 		<string>url</string>
 		<string>journal_tag</string>
 		<string>title</string>
-		<string>searches_heading</string>
-		<string>vault_path</string>
-		<string>tasks_file</string>
 		<string>vault_name</string>
+		<string>vault_path</string>
+		<string>searches_heading</string>
+		<string>tasks_file</string>
 	</array>
 	<key>version</key>
-	<string>2.2.2</string>
+	<string>2.3.0</string>
 	<key>webaddress</key>
 	<string>https://github.com/macedotavares/obsidian-utilities</string>
 </dict>
