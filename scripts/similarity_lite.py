@@ -202,7 +202,7 @@ class SimilarityLite():
             to_return.append(result)
         return to_return
 
-    def get_similar_docs(self, user_search_query, num_results=10):
+    def get_similar_docs(self, user_search_query, num_results=11):
         tokenized_query = self.tokenizer(user_search_query)
         question_marks = ",".join("?" for term in tokenized_query)
 
