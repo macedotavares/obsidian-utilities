@@ -3127,7 +3127,6 @@ sys.stdout.write(out)</string>
 				<integer>102</integer>
 				<key>script</key>
 				<string>originalpath="$vault_path"
-user="$(eval echo ~$USER)"
 
 expanded="${originalpath/#\~/$HOME}"
 
@@ -4534,6 +4533,8 @@ Output:
 		</dict>
 		<key>FBB5DD0B-3101-41B0-8F21-3C3BB2151F27</key>
 		<dict>
+			<key>colorindex</key>
+			<integer>5</integer>
 			<key>note</key>
 			<string>Get the file name of the source note</string>
 			<key>xpos</key>
@@ -4607,13 +4608,13 @@ Output:
 		<string>tasks_heading</string>
 		<string>task_tag</string>
 		<string>daily_folder</string>
-		<string>url</string>
+		<string>vault_path</string>
 		<string>journal_tag</string>
 		<string>title</string>
-		<string>vault_name</string>
-		<string>vault_path</string>
 		<string>searches_heading</string>
 		<string>tasks_file</string>
+		<string>vault_name</string>
+		<string>url</string>
 	</array>
 	<key>version</key>
 	<string>2.2.2</string>
