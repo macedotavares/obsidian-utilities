@@ -2211,7 +2211,7 @@ sys.stdout.write(result)</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
-				<string>html2md.py</string>
+				<string>scripts/html2md.py</string>
 				<key>type</key>
 				<integer>8</integer>
 			</dict>
@@ -2348,81 +2348,6 @@ Application('com.runningwithcrayons.Alfred').setConfiguration('title', {
 			<string>6A4967DA-0388-4B76-9D27-6FF75566629B</string>
 			<key>version</key>
 			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>68</integer>
-				<key>script</key>
-				<string>-- CODE BY Vitor
--- https://www.alfredforum.com/topic/2013-how-to-get-frontmost-tab’s-url-and-title-of-various-browsers/
--- This example returns both the title and URL for the frontmost tab of the active browser, separated by a newline.
--- For shorter code inclusive of all editions, only the start of the application name is checked.
--- Keep in mind that to be able to use a variable in `tell application` — via `using terms from` — we’re basically requiring that referenced browser to be available on the system.
--- That means that to use this on "Google Chrome Canary" or "Chromium", "Google Chrome" needs to be installed. Same for other browsers.
--- This method also does not exit with a non-zero exit status when the frontmost application is not a supported browser.
--- For the aforementioned reasons, this method is inferior to its JXA counterpart.
-use scripting additions
-use framework "Foundation"
-
-tell application "System Events" to set frontApp to name of first process whose frontmost is true
-
-if (frontapp starts with "Google Chrome") or (frontApp starts with "Chromium") or (frontApp starts with "Opera") or (frontApp starts with "Vivaldi") or (frontApp starts with "Brave Browser") or (frontApp starts with "Microsoft Edge") then
-  using terms from application "Google Chrome"
-    tell application frontApp to set currentTabTitle to title of active tab of front window
-    tell application frontApp to set currentTabUrl to URL of active tab of front window
-  end using terms from
-else if (frontApp starts with "Safari") or (frontApp starts with "Webkit") then
-  using terms from application "Safari"
-    tell application frontApp to set currentTabTitle to name of front document
-    tell application frontApp to set currentTabUrl to URL of front document
-  end using terms from
-else if (frontApp starts with "Firefox") then
-	tell application "Firefox" to activate
-	tell application "System Events" to tell process "firefox"
-		set frontmost to true
-		set currentTabTitle to name of windows's item 1
-		set currentTabTitle to (do shell script "echo " &amp; quoted form of currentTabTitle &amp; " | tr '[' ' '")
-		set currentTabTitle to (do shell script "echo " &amp; quoted form of currentTabTitle &amp; " | tr ']' ' '")
-	end tell
-	set thePasteboard to current application's NSPasteboard's generalPasteboard()
-	set theCount to thePasteboard's changeCount()
-	tell application "System Events"
-		keystroke "l" using {command down}
-		delay 0.2
-		keystroke "c" using {command down}
-	end tell
-	repeat 20 times
-		if thePasteboard's changeCount() is not theCount then exit repeat
-		delay 0.1
-	end repeat
-	set currentTabUrl to the clipboard
-else
-  return "You need a supported browser as your frontmost app"
-end if
-
-set bundleID to (system attribute "alfred_workflow_bundleid")
-
-tell application id "com.runningwithcrayons.Alfred"
-	set configuration "url" to value currentTabUrl in workflow bundleID
-	set configuration "title" to value currentTabTitle in workflow bundleID
-end tell</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>6</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>FD90AE8B-DD60-4721-A234-9908190447B5</string>
-			<key>version</key>
-			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -4393,6 +4318,8 @@ Output:
 		</dict>
 		<key>A52E3728-4AFF-4A73-A364-370836A29175</key>
 		<dict>
+			<key>colorindex</key>
+			<integer>8</integer>
 			<key>note</key>
 			<string>html2text</string>
 			<key>xpos</key>
@@ -4630,15 +4557,6 @@ Output:
 			<key>ypos</key>
 			<integer>2730</integer>
 		</dict>
-		<key>FD90AE8B-DD60-4721-A234-9908190447B5</key>
-		<dict>
-			<key>note</key>
-			<string>Get title and URL of active browser tab</string>
-			<key>xpos</key>
-			<integer>820</integer>
-			<key>ypos</key>
-			<integer>1920</integer>
-		</dict>
 		<key>FDF6A561-6057-49F6-BC4F-F7E343BC5AB3</key>
 		<dict>
 			<key>colorindex</key>
@@ -4689,16 +4607,16 @@ Output:
 		<string>tasks_heading</string>
 		<string>task_tag</string>
 		<string>daily_folder</string>
-		<string>tasks_file</string>
+		<string>url</string>
 		<string>journal_tag</string>
 		<string>title</string>
 		<string>vault_name</string>
-		<string>url</string>
-		<string>searches_heading</string>
 		<string>vault_path</string>
+		<string>searches_heading</string>
+		<string>tasks_file</string>
 	</array>
 	<key>version</key>
-	<string>2.2.1</string>
+	<string>2.2.2</string>
 	<key>webaddress</key>
 	<string>https://github.com/macedotavares/obsidian-utilities</string>
 </dict>
