@@ -726,7 +726,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>CF41380B-F98E-425B-9965-243207FE40A5</string>
+				<string>D96B9DE5-61A7-403B-865F-4D99A846A314</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -956,6 +956,31 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>96DAB4F9-647B-4DB6-818B-5B8FC8E0ABB7</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>D96B9DE5-61A7-403B-865F-4D99A846A314</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>DA51ADB1-1F3A-495F-9B55-1CCC1F0D6E4C</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>AB103B7C-75B0-474F-8679-F96CBCB885FC</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>CF41380B-F98E-425B-9965-243207FE40A5</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -1580,7 +1605,6 @@ sys.stdout.write(new_content)</string>
 				<integer>102</integer>
 				<key>script</key>
 				<string>originalpath="${1}"
-
 expanded="${originalpath/#\~/$HOME}"
 
 echo -n "$(cat "$expanded")"</string>
@@ -2445,6 +2469,27 @@ Application('com.runningwithcrayons.Alfred').setConfiguration('title', {
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string>Script output was empty.</string>
+				<key>title</key>
+				<string>Error running action</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>DA51ADB1-1F3A-495F-9B55-1CCC1F0D6E4C</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>subtext</key>
 				<string>Search Google for {query}</string>
 				<key>text</key>
@@ -2476,6 +2521,101 @@ Application('com.runningwithcrayons.Alfred').setConfiguration('title', {
 			<string>alfred.workflow.utility.argument</string>
 			<key>uid</key>
 			<string>A32E8F7F-B120-4433-8574-1A9FFA903777</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>originalpath="${1}"
+expanded="${originalpath/#\~/$HOME}"
+
+echo -n "$(cat "$expanded")"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>3E743918-6C52-45E7-B246-3C6E7CB228D3</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string></string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string></string>
+						<key>outputlabel</key>
+						<string>Error</string>
+						<key>uid</key>
+						<string>AB103B7C-75B0-474F-8679-F96CBCB885FC</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>Update</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>D96B9DE5-61A7-403B-865F-4D99A846A314</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>{var:vault_path}/{var:daily_folder}/{var:daily_note}</string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>5258F68D-5514-4270-B8C7-9EB61C2B2FA8</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>heading</key>
+					<string>{var:searches_heading}</string>
+					<key>original_content</key>
+					<string>{query}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>968FA78D-F726-4280-9F23-E617C1F4E677</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -2528,72 +2668,6 @@ Application('com.runningwithcrayons.Alfred').setConfiguration('title', {
 			<string>CF41380B-F98E-425B-9965-243207FE40A5</string>
 			<key>version</key>
 			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>script</key>
-				<string>originalpath="${1}"
-
-expanded="${originalpath/#\~/$HOME}"
-
-echo -n "$(cat "$expanded")"</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>3E743918-6C52-45E7-B246-3C6E7CB228D3</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argument</key>
-				<string>{var:vault_path}/{var:daily_folder}/{var:daily_note}</string>
-				<key>passthroughargument</key>
-				<false/>
-				<key>variables</key>
-				<dict/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.argument</string>
-			<key>uid</key>
-			<string>5258F68D-5514-4270-B8C7-9EB61C2B2FA8</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argument</key>
-				<string></string>
-				<key>passthroughargument</key>
-				<false/>
-				<key>variables</key>
-				<dict>
-					<key>heading</key>
-					<string>{var:searches_heading}</string>
-					<key>original_content</key>
-					<string>{query}</string>
-				</dict>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.argument</string>
-			<key>uid</key>
-			<string>968FA78D-F726-4280-9F23-E617C1F4E677</string>
-			<key>version</key>
-			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -4362,9 +4436,9 @@ Output:
 			<key>note</key>
 			<string>CREATE/UPDATE FILE</string>
 			<key>xpos</key>
-			<integer>930</integer>
+			<integer>1095</integer>
 			<key>ypos</key>
-			<integer>2370</integer>
+			<integer>2415</integer>
 		</dict>
 		<key>97DF740A-F327-49DE-86C9-D838CFE72410</key>
 		<dict>
@@ -4488,9 +4562,23 @@ Input:
 Output:
 - original + new entry</string>
 			<key>xpos</key>
-			<integer>755</integer>
+			<integer>920</integer>
 			<key>ypos</key>
-			<integer>2370</integer>
+			<integer>2415</integer>
+		</dict>
+		<key>D96B9DE5-61A7-403B-865F-4D99A846A314</key>
+		<dict>
+			<key>xpos</key>
+			<integer>765</integer>
+			<key>ypos</key>
+			<integer>2390</integer>
+		</dict>
+		<key>DA51ADB1-1F3A-495F-9B55-1CCC1F0D6E4C</key>
+		<dict>
+			<key>xpos</key>
+			<integer>925</integer>
+			<key>ypos</key>
+			<integer>2245</integer>
 		</dict>
 		<key>DA543B3F-CBDE-43DA-AD64-B0E89627C43E</key>
 		<dict>
@@ -4700,13 +4788,13 @@ Output:
 		<string>tasks_heading</string>
 		<string>task_tag</string>
 		<string>daily_folder</string>
-		<string>vault_path</string>
+		<string>url</string>
 		<string>journal_tag</string>
 		<string>title</string>
 		<string>searches_heading</string>
+		<string>vault_path</string>
 		<string>tasks_file</string>
 		<string>vault_name</string>
-		<string>url</string>
 	</array>
 	<key>version</key>
 	<string>2.2.2</string>
