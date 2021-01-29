@@ -102,8 +102,8 @@ class SimilarityLite():
         self.add_terms(self.get_terms_from_docs(docs))
 
     def add_or_update_docs(self, docs, update_stats=False):
-        if len(docs) > 200:
-            logging.warn("You are probably using too many docs at one time.")
+        #if len(docs) > 200:
+           # logging.warn("You are probably using too many docs at one time.")
         assert isinstance(docs, list)
         insert_query = """
             INSERT INTO raw_docs (id, doc_text) VALUES (?, ?)
