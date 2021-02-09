@@ -95,14 +95,14 @@ The name of your vault (obsidian's root folder name). (eg. "Notes")
 #### vault_path
 The path to your vault.
 
-### Related Notes Snippet
-You must also configure the snippet object in the Related Notes action. Choose a prefix character and a keyword (e.g. `/related`).
-
 Examples:
 
 - "/Users/yourname/Dropbox/Notes"
 - "~/Dropbox/Notes"
 - "/Volumes/NAS/Notes
+
+### Related Notes Snippet
+You must also configure the snippet object in the Related Notes action. Choose a prefix character and a keyword (e.g. `/related`).
 
 ---
 
