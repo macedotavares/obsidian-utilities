@@ -12,7 +12,16 @@ This is an [Alfred](https://alfredapp.com) workflow containing various actions t
 - macOS 10.15 (Catalina) or above
 - Python3 installation in default location (`/usr/bin/python3`)
 
-## Release Notes
+## Change Log
+
+### v2.3.0
+- Refactored Related Notes so that it doesn't depend so much on external python packages.
+- Significantly cut back on workflow size.
+
+### v2.2.2
+- Fixed some script paths.
+- Made some actions fail less catastrophically.
+- The Related Notes feature is still very fragile and dependent on each user's specific system configuration. I'll have to seriously refactor it.
 
 ### v2.2.0
 - Type `/related` anywere on your note and the workflow will insert a list of related notes, based on content similarity. It may take some time, though. Like, 10 seconds on a newish macbook and 2000+ notes.
