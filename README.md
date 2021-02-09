@@ -61,43 +61,42 @@ This is an [Alfred](https://alfredapp.com) workflow containing various actions t
 ## Setup
 You must configure the following environment variables before using the workflow:
 
-### daily_folder
+### Environment Variables
+
+#### daily_folder
 The name of the folder where you keep your daily notes (eg. "Dailies").
 
-### journal_tag
+#### journal_tag
 The tag that will be appended to your journal entries. Without the octothorpe. (eg. "journal")
 
-### related_ignore_words
-Common and irrelevant words that you wish to exclude from the match criteria. Separated by spaces.
-
-### related_max_results
-How many results to return.
-
-### searches_heading
+#### searches_heading
 The H2 heading that will be created/appended to inside your daily notes. Without the octothorpe. (eg. "Google Searches")
 
-### task_tag
+#### task_tag
 The tag that will be appended to your task entries. Without the octothorpe. (eg. "task")
 
-### tasks_file
+#### tasks_file
 The filename of the note where you will store your tasks. Without the .md extension. (eg. "Tasks")
 
-### title
+#### title
 Placeholder for the Clip action. Leave empty.
 
-### url
+#### url
 Placeholder for the Clip action. Leave empty.
 
-### tasks_heading
+#### tasks_heading
 The H2 heading inside your tasks file that tasks will be appended to. Without the octothorpe. (eg. "To-Do").
 
 This allows you to have other headings for differente task groups, like "Done" or "Archived". You can, for example, embed only your current tasks in your daily notes. ![[Tasks#To-Do]]
 
-### vault_name
+#### vault_name
 The name of your vault (obsidian's root folder name). (eg. "Notes")
 
-### vault_path
+#### vault_path
 The path to your vault.
+
+### Related Notes Snippet
+You must also configure the snippet object in the Related Notes action. Choose a prefix character and a keyword (e.g. `/related`).
 
 Examples:
 
