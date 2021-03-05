@@ -5044,11 +5044,11 @@ Output:
 		<string>tasks_heading</string>
 		<string>task_tag</string>
 		<string>daily_folder</string>
-		<string>searches_heading</string>
-		<string>journal_tag</string>
-		<string>tasks_file</string>
 		<string>vault_name</string>
+		<string>journal_tag</string>
 		<string>vault_path</string>
+		<string>searches_heading</string>
+		<string>tasks_file</string>
 	</array>
 	<key>version</key>
 	<string>2.3.1</string>
