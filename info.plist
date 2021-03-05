@@ -31,11 +31,37 @@
 				<false/>
 			</dict>
 		</array>
+		<key>03BA2C99-D4FC-47BC-9140-D0EBB915CAC8</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>724480E3-38C7-477D-A9EB-E8A03A9F3903</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>05D670E2-E454-449E-AE4E-D584071A36CA</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
 				<string>21FFDED0-F3B5-4BA9-B44A-7D70767DB996</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>0C2E5A36-A116-4111-8B54-DED43C13EDF7</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>03BA2C99-D4FC-47BC-9140-D0EBB915CAC8</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -200,19 +226,9 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>2FAFA328-13EB-4A36-AF01-1B48832B413E</string>
+				<string>64451213-087A-4D15-8350-03A2FC64E8B4</string>
 				<key>modifiers</key>
 				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>83A078F5-6EBC-44DA-AFCB-F90B9769A55A</string>
-				<key>modifiers</key>
-				<integer>1048576</integer>
 				<key>modifiersubtext</key>
 				<string></string>
 				<key>vitoclose</key>
@@ -225,39 +241,6 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-		<key>384EF19C-91ED-40AF-87F2-FAAC64614B42</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>DA543B3F-CBDE-43DA-AD64-B0E89627C43E</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>E9EE3256-7694-44A4-B076-BDDAC5002701</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>A77A1308-A928-4920-9889-C67E16B2E41A</string>
-				<key>modifiers</key>
-				<integer>1048576</integer>
-				<key>modifiersubtext</key>
-				<string>Open in external editor</string>
 				<key>vitoclose</key>
 				<false/>
 			</dict>
@@ -322,7 +305,7 @@
 				<key>modifiers</key>
 				<integer>1048576</integer>
 				<key>modifiersubtext</key>
-				<string></string>
+				<string>Open in external editor</string>
 				<key>vitoclose</key>
 				<false/>
 			</dict>
@@ -359,6 +342,21 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>48E0E4F0-54FA-4552-B833-1BD106B9F47F</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>171C445C-0615-45CC-9C68-83ADBF00066A</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>4A1FC008-2BAB-4845-BE58-2F3A4F1C77C8</string>
 				<key>vitoclose</key>
 				<false/>
 			</dict>
@@ -489,10 +487,49 @@
 				<false/>
 			</dict>
 		</array>
+		<key>61211A73-4B81-4C53-B008-3B9909DBAA2D</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>0C2E5A36-A116-4111-8B54-DED43C13EDF7</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>614F07F6-4B10-43E0-A998-8C85952D75A3</key>
 		<array/>
+		<key>64451213-087A-4D15-8350-03A2FC64E8B4</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>E9E2FC54-A830-451D-9160-41F021313F4B</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>65933EB2-9F0E-4DA1-B167-598004DC247A</key>
 		<array/>
+		<key>674AC9B4-9D80-4F50-AC4F-155DD376F505</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>0408971C-8E48-4D35-9A08-1659CB42E851</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>69580EB9-4634-4BEA-AE49-6881DDCD0D8C</key>
 		<array>
 			<dict>
@@ -511,6 +548,32 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>65933EB2-9F0E-4DA1-B167-598004DC247A</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>6DD3C6AF-A627-44A2-96BD-C96B3B5FF8D9</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>E4D21BE0-2F0E-477C-BDFE-2685EE92D03F</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>724480E3-38C7-477D-A9EB-E8A03A9F3903</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>674AC9B4-9D80-4F50-AC4F-155DD376F505</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -637,7 +700,20 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>C3914442-A188-4048-93A5-585CBACE7992</string>
+				<string>8D3C70EE-D09C-4C89-98A9-7A976C0FF92D</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>8D3C70EE-D09C-4C89-98A9-7A976C0FF92D</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>736C77FE-8B5F-40C8-BA10-ABDED61F755F</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -970,7 +1046,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>171C445C-0615-45CC-9C68-83ADBF00066A</string>
+				<string>48E0E4F0-54FA-4552-B833-1BD106B9F47F</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -988,6 +1064,49 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>E4D21BE0-2F0E-477C-BDFE-2685EE92D03F</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>DA543B3F-CBDE-43DA-AD64-B0E89627C43E</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>E9EE3256-7694-44A4-B076-BDDAC5002701</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>FFB447A7-0A60-4D29-AB40-FF00221638AF</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string>Open note in external editor</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>00A41A4D-869F-45B4-A87C-DB9A2B47A088</string>
+				<key>modifiers</key>
+				<integer>524288</integer>
+				<key>modifiersubtext</key>
+				<string>Search in Obsidian</string>
 				<key>vitoclose</key>
 				<false/>
 			</dict>
@@ -1122,6 +1241,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>FFB447A7-0A60-4D29-AB40-FF00221638AF</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>418F30C6-F073-4FB5-AA7E-7AD0C6DC5F16</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 	</dict>
 	<key>createdby</key>
 	<string>@macedotavares</string>
@@ -1133,21 +1265,6 @@
 	<string>Obsidian Utilities</string>
 	<key>objects</key>
 	<array>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>openwith</key>
-				<string>~/Applications/Visual Studio Code.app</string>
-				<key>sourcefile</key>
-				<string>{var:vault_path}</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openfile</string>
-			<key>uid</key>
-			<string>2FAFA328-13EB-4A36-AF01-1B48832B413E</string>
-			<key>version</key>
-			<integer>3</integer>
-		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
@@ -1173,16 +1290,38 @@
 			<key>config</key>
 			<dict>
 				<key>openwith</key>
-				<string>~/Applications/Visual Studio Code.app</string>
+				<string></string>
 				<key>sourcefile</key>
-				<string>{var:vault_path}</string>
+				<string></string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.action.openfile</string>
 			<key>uid</key>
-			<string>83A078F5-6EBC-44DA-AFCB-F90B9769A55A</string>
+			<string>E9E2FC54-A830-451D-9160-41F021313F4B</string>
 			<key>version</key>
 			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>json</key>
+				<string>{
+  "alfredworkflow" : {
+    "arg" : "{var:vault_path}",
+    "config" : {
+      "openwith" : "{var:external_editor}"
+    },
+    "variables" : {
+    }
+  }
+}</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.json</string>
+			<key>uid</key>
+			<string>64451213-087A-4D15-8350-03A2FC64E8B4</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1209,7 +1348,7 @@
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>keyword</key>
-				<string>j</string>
+				<string>dj</string>
 				<key>subtext</key>
 				<string></string>
 				<key>text</key>
@@ -1302,7 +1441,7 @@
 				<key>argumenttype</key>
 				<integer>1</integer>
 				<key>keyword</key>
-				<string>n</string>
+				<string>dn</string>
 				<key>subtext</key>
 				<string></string>
 				<key>text</key>
@@ -1413,6 +1552,144 @@
 			<string>alfred.workflow.action.openurl</string>
 			<key>uid</key>
 			<string>63496218-CF6F-460F-9997-117CBD31D92B</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>openwith</key>
+				<string></string>
+				<key>sourcefile</key>
+				<string>{var:file}</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openfile</string>
+			<key>uid</key>
+			<string>674AC9B4-9D80-4F50-AC4F-155DD376F505</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>adduuid</key>
+				<false/>
+				<key>allowemptyfiles</key>
+				<true/>
+				<key>createintermediatefolders</key>
+				<false/>
+				<key>filename</key>
+				<string>{var:file}</string>
+				<key>filetext</key>
+				<string></string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
+				<key>relativepathmode</key>
+				<integer>0</integer>
+				<key>type</key>
+				<integer>2</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.writefile</string>
+			<key>uid</key>
+			<string>03BA2C99-D4FC-47BC-9140-D0EBB915CAC8</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>adduuid</key>
+				<false/>
+				<key>allowemptyfiles</key>
+				<false/>
+				<key>createintermediatefolders</key>
+				<false/>
+				<key>filename</key>
+				<string>{var:vault_path}/{var:daily_folder}/{var:date}.md</string>
+				<key>filetext</key>
+				<string>[[{var:title}]]
+
+---</string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
+				<key>relativepathmode</key>
+				<integer>0</integer>
+				<key>type</key>
+				<integer>2</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.writefile</string>
+			<key>uid</key>
+			<string>0408971C-8E48-4D35-9A08-1659CB42E851</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>nn</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>New linked note</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>61211A73-4B81-4C53-B008-3B9909DBAA2D</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>date</key>
+					<string>{date:YYYY-MM-dd}</string>
+					<key>file</key>
+					<string>{var:vault_path}/{query}.md</string>
+					<key>title</key>
+					<string>{query}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>0C2E5A36-A116-4111-8B54-DED43C13EDF7</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>json</key>
+				<string>{
+  "alfredworkflow" : {
+    "arg" : "{var:file}",
+    "config" : {
+      "openwith" : "{var:external_editor}"
+    },
+    "variables" : {
+    }
+  }
+}</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.json</string>
+			<key>uid</key>
+			<string>724480E3-38C7-477D-A9EB-E8A03A9F3903</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -1731,7 +2008,7 @@ echo -n $ref</string>
 				<integer>0</integer>
 				<key>script</key>
 				<string># THESE VARIABLES MUST BE SET. SEE THE ONEUPDATER README FOR AN EXPLANATION OF EACH.
-readonly remote_info_plist='https://github.com/macedotavares/obsidian-utilities/raw/main/src/info.plist'
+readonly remote_info_plist='https://raw.githubusercontent.com/macedotavares/obsidian-utilities/main/info.plist'
 readonly workflow_url='macedotavares/obsidian-utilities'
 readonly download_type='github_release'
 readonly frequency_check='1'
@@ -2593,85 +2870,217 @@ echo -n "$(cat "$expanded")"</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>alfredfiltersresults</key>
-				<false/>
-				<key>alfredfiltersresultsmatchmode</key>
-				<integer>0</integer>
-				<key>argumenttreatemptyqueryasnil</key>
-				<true/>
-				<key>argumenttrimmode</key>
-				<integer>0</integer>
-				<key>argumenttype</key>
-				<integer>0</integer>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>keyword</key>
-				<string>s</string>
-				<key>queuedelaycustom</key>
-				<integer>3</integer>
-				<key>queuedelayimmediatelyinitially</key>
-				<true/>
-				<key>queuedelaymode</key>
-				<integer>0</integer>
-				<key>queuemode</key>
-				<integer>1</integer>
-				<key>runningsubtext</key>
+				<key>openwith</key>
 				<string></string>
-				<key>script</key>
-				<string>originalpath="$vault_path"
-user="$(eval echo ~$USER)"
-expanded=${originalpath/\~/"$user"} 
-
-results=("${(@f)$(mdfind -onlyin "$expanded" $1)}")
-
-json_obj='{"items":[{}'
-
-for path in "${results[@]}"
-do
-title=${path##*/}
-title="${title%.*}"
-
-json_obj="$json_obj",{\"type\":\"file\",\"title\":\""${title}"\",\"subtitle\":\""${path}"\",\"arg\":\""${path}"\"}
-
-done
-
-json_obj="$json_obj"]}
-
-echo "$json_obj"</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
+				<key>sourcefile</key>
 				<string></string>
-				<key>subtext</key>
-				<string></string>
-				<key>title</key>
-				<string>Search Obsidian for "{query}"</string>
-				<key>type</key>
-				<integer>5</integer>
-				<key>withspace</key>
-				<true/>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.input.scriptfilter</string>
+			<string>alfred.workflow.action.openfile</string>
 			<key>uid</key>
-			<string>384EF19C-91ED-40AF-87F2-FAAC64614B42</string>
+			<string>418F30C6-F073-4FB5-AA7E-7AD0C6DC5F16</string>
 			<key>version</key>
 			<integer>3</integer>
 		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>openwith</key>
-				<string>~/Applications/Visual Studio Code.app</string>
-				<key>sourcefile</key>
-				<string>{query}</string>
+				<key>json</key>
+				<string>{
+  "alfredworkflow" : {
+    "arg" : "{query}",
+    "config" : {
+      "openwith" : "{var:external_editor}"
+    },
+    "variables" : {
+    }
+  }
+}</string>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.action.openfile</string>
+			<string>alfred.workflow.utility.json</string>
 			<key>uid</key>
-			<string>A77A1308-A928-4920-9889-C67E16B2E41A</string>
+			<string>FFB447A7-0A60-4D29-AB40-FF00221638AF</string>
 			<key>version</key>
-			<integer>3</integer>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>anchorfields</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>daterange</key>
+				<integer>0</integer>
+				<key>fields</key>
+				<array>
+					<dict>
+						<key>field</key>
+						<string>kMDItemDisplayName</string>
+						<key>not</key>
+						<false/>
+						<key>split</key>
+						<true/>
+						<key>value</key>
+						<string>{query}</string>
+						<key>words</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>field</key>
+						<string>kMDItemAlternateNames</string>
+						<key>not</key>
+						<false/>
+						<key>split</key>
+						<true/>
+						<key>value</key>
+						<string>{query}</string>
+						<key>words</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>field</key>
+						<string>kMDItemFinderComment</string>
+						<key>not</key>
+						<false/>
+						<key>split</key>
+						<true/>
+						<key>value</key>
+						<string>{query}</string>
+						<key>words</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>field</key>
+						<string>kMDItemTextContent</string>
+						<key>not</key>
+						<false/>
+						<key>split</key>
+						<true/>
+						<key>value</key>
+						<string>{query}</string>
+						<key>words</key>
+						<true/>
+					</dict>
+				</array>
+				<key>includesystem</key>
+				<false/>
+				<key>keyword</key>
+				<string>s</string>
+				<key>limit</key>
+				<integer>0</integer>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>scopes</key>
+				<array/>
+				<key>sortmode</key>
+				<integer>0</integer>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>Search the vault.</string>
+				<key>types</key>
+				<array>
+					<string>*.markdown</string>
+				</array>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.filefilter</string>
+			<key>uid</key>
+			<string>E4D21BE0-2F0E-477C-BDFE-2685EE92D03F</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>json</key>
+				<string>{
+  "alfredworkflow" : {
+    "config" : {
+      "argumenttrimmode" : 0,
+      "keyword" : "obs",
+      "daterange" : 0,
+      "scopes" : [
+        "{var:vault_path}"
+      ],
+      "sortmode" : 0,
+      "fields" : [
+        {
+          "words" : true,
+          "value" : "{query}",
+          "split" : true,
+          "not" : false,
+          "field" : "kMDItemDisplayName"
+        },
+        {
+          "words" : true,
+          "value" : "{query}",
+          "split" : true,
+          "not" : false,
+          "field" : "kMDItemAlternateNames"
+        },
+        {
+          "words" : true,
+          "value" : "{query}",
+          "split" : true,
+          "not" : false,
+          "field" : "kMDItemFinderComment"
+        },
+        {
+          "words" : true,
+          "value" : "{query}",
+          "split" : true,
+          "not" : false,
+          "field" : "kMDItemTextContent",
+          "icon" : "icons/title.png"
+        }
+      ],
+      "argumenttype" : 0,
+      "title" : "search folder for {query}",
+      "anchorfields" : true,
+      "runningsubtext" : "",
+      "limit" : 0,
+      "subtext" : "",
+      "includesystem" : false,
+      "types" : [
+        "net.ia.markdown"
+      ],
+      "withspace" : true
+    }
+  }
+}</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.json</string>
+			<key>uid</key>
+			<string>6DD3C6AF-A627-44A2-96BD-C96B3B5FF8D9</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>obsidian://search?vault={var:vault_name}&amp;query={var:search}</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>00A41A4D-869F-45B4-A87C-DB9A2B47A088</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -2766,16 +3175,38 @@ echo "$json_obj"</string>
 			<key>config</key>
 			<dict>
 				<key>openwith</key>
-				<string>~/Applications/Visual Studio Code.app</string>
+				<string></string>
 				<key>sourcefile</key>
-				<string>{var:file}</string>
+				<string></string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.action.openfile</string>
 			<key>uid</key>
-			<string>C3914442-A188-4048-93A5-585CBACE7992</string>
+			<string>736C77FE-8B5F-40C8-BA10-ABDED61F755F</string>
 			<key>version</key>
 			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>json</key>
+				<string>{
+  "alfredworkflow" : {
+    "arg" : "{var:file}",
+    "config" : {
+      "openwith" : "{var:external_editor}"
+    },
+    "variables" : {
+    }
+  }
+}</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.json</string>
+			<key>uid</key>
+			<string>8D3C70EE-D09C-4C89-98A9-7A976C0FF92D</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -3130,9 +3561,9 @@ sys.stdout.write(out)</string>
 			<key>config</key>
 			<dict>
 				<key>focusedappvariable</key>
-				<false/>
+				<true/>
 				<key>focusedappvariablename</key>
-				<string></string>
+				<string>focusedapp</string>
 				<key>keyword</key>
 				<string>related</string>
 			</dict>
@@ -3324,6 +3755,36 @@ echo -n "$(cat "$expanded")"</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:focusedapp}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>md.obsidian</string>
+						<key>outputlabel</key>
+						<string>Continue</string>
+						<key>uid</key>
+						<string>4A1FC008-2BAB-4845-BE58-2F3A4F1C77C8</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>Exit</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>48E0E4F0-54FA-4552-B833-1BD106B9F47F</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>argument</key>
 				<string></string>
 				<key>passthroughargument</key>
@@ -3486,9 +3947,13 @@ This is an [Alfred](https://alfredapp.com) workflow containing various actions t
 
 ## Release Notes
 
+### v2.3.1
+- Added modifier key to `s`earch. Option+Enter will now pass the search on to Obsidian.
+- You can now choose your external editor.
+
 ### v2.3.0
 - Refactored Related Notes so that it doesn't depend so much on external python packages.
-- Significantly cut back on workflow size
+- Significantly cut back on workflow size.
 
 ### v2.2.0
 - Type `/related` anywere on your note and the workflow will insert a list of related notes, based on content similarity. It may take some time, though. Like, 10 seconds on a newish macbook and 2000+ notes.
@@ -3531,6 +3996,9 @@ You must configure the following environment variables before using the workflow
 
 ### daily_folder
 The name of the folder where you keep your daily notes (eg. "Dailies").
+
+### external_editor
+Full path to the app you wish to use as an external editor. The app should be able to handle directories. (eg. "/Applications/Visual Studio Code.app", "~/Applications/Typora.app")
 
 ### journal_tag
 The tag that will be appended to your journal entries. Without the octothorpe. (eg. "journal")
@@ -3637,12 +4105,33 @@ Check the [Github repository](https://github.com/macedotavares/obsidian-utilitie
 Found a bug? Want to make a suggestion? [Open an issue](https://github.com/macedotavares/obsidian-utilities/issues/new) or [PM me in the Obsidian forum](https://forum.obsidian.md/u/macedotavares/summary).</string>
 	<key>uidata</key>
 	<dict>
+		<key>00A41A4D-869F-45B4-A87C-DB9A2B47A088</key>
+		<dict>
+			<key>xpos</key>
+			<integer>480</integer>
+			<key>ypos</key>
+			<integer>3000</integer>
+		</dict>
 		<key>02CB464C-2530-4EF3-AD99-E3EFD98DC56D</key>
 		<dict>
 			<key>xpos</key>
 			<integer>1975</integer>
 			<key>ypos</key>
 			<integer>3605</integer>
+		</dict>
+		<key>03BA2C99-D4FC-47BC-9140-D0EBB915CAC8</key>
+		<dict>
+			<key>xpos</key>
+			<integer>295</integer>
+			<key>ypos</key>
+			<integer>660</integer>
+		</dict>
+		<key>0408971C-8E48-4D35-9A08-1659CB42E851</key>
+		<dict>
+			<key>xpos</key>
+			<integer>730</integer>
+			<key>ypos</key>
+			<integer>660</integer>
 		</dict>
 		<key>05D670E2-E454-449E-AE4E-D584071A36CA</key>
 		<dict>
@@ -3652,6 +4141,13 @@ Found a bug? Want to make a suggestion? [Open an issue](https://github.com/maced
 			<integer>830</integer>
 			<key>ypos</key>
 			<integer>1410</integer>
+		</dict>
+		<key>0C2E5A36-A116-4111-8B54-DED43C13EDF7</key>
+		<dict>
+			<key>xpos</key>
+			<integer>205</integer>
+			<key>ypos</key>
+			<integer>690</integer>
 		</dict>
 		<key>1410ADC8-8E73-4024-BF07-F0BDEDE0250C</key>
 		<dict>
@@ -3686,7 +4182,7 @@ Output:
 			<key>note</key>
 			<string>Generate reference code</string>
 			<key>xpos</key>
-			<integer>245</integer>
+			<integer>340</integer>
 			<key>ypos</key>
 			<integer>3620</integer>
 		</dict>
@@ -3709,16 +4205,16 @@ Output:
 			<key>note</key>
 			<string>Add to daily note</string>
 			<key>xpos</key>
-			<integer>30</integer>
+			<integer>20</integer>
 			<key>ypos</key>
-			<integer>690</integer>
+			<integer>445</integer>
 		</dict>
 		<key>24426A96-FDA8-4D32-84BF-CBD1F1C4F28D</key>
 		<dict>
 			<key>note</key>
 			<string>ref code</string>
 			<key>xpos</key>
-			<integer>470</integer>
+			<integer>515</integer>
 			<key>ypos</key>
 			<integer>3650</integer>
 		</dict>
@@ -3734,18 +4230,9 @@ Output:
 			<key>colorindex</key>
 			<integer>1</integer>
 			<key>xpos</key>
-			<integer>1590</integer>
+			<integer>1955</integer>
 			<key>ypos</key>
 			<integer>3215</integer>
-		</dict>
-		<key>2FAFA328-13EB-4A36-AF01-1B48832B413E</key>
-		<dict>
-			<key>colorindex</key>
-			<integer>11</integer>
-			<key>xpos</key>
-			<integer>345</integer>
-			<key>ypos</key>
-			<integer>10</integer>
 		</dict>
 		<key>3091A493-D20A-470F-A937-405EA5426B99</key>
 		<dict>
@@ -3777,9 +4264,9 @@ Output:
 			<key>colorindex</key>
 			<integer>1</integer>
 			<key>xpos</key>
-			<integer>285</integer>
+			<integer>290</integer>
 			<key>ypos</key>
-			<integer>390</integer>
+			<integer>240</integer>
 		</dict>
 		<key>375E7C03-7400-49EF-9797-1B94D5395393</key>
 		<dict>
@@ -3789,13 +4276,6 @@ Output:
 			<integer>20</integer>
 			<key>ypos</key>
 			<integer>75</integer>
-		</dict>
-		<key>384EF19C-91ED-40AF-87F2-FAAC64614B42</key>
-		<dict>
-			<key>xpos</key>
-			<integer>30</integer>
-			<key>ypos</key>
-			<integer>2730</integer>
 		</dict>
 		<key>3BF0541E-83DB-419B-B545-843976BAF63D</key>
 		<dict>
@@ -3846,6 +4326,15 @@ Output:
 			<key>ypos</key>
 			<integer>3500</integer>
 		</dict>
+		<key>418F30C6-F073-4FB5-AA7E-7AD0C6DC5F16</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>11</integer>
+			<key>xpos</key>
+			<integer>475</integer>
+			<key>ypos</key>
+			<integer>2875</integer>
+		</dict>
 		<key>42D158C3-36E5-4DB8-8F7F-5D647313A681</key>
 		<dict>
 			<key>xpos</key>
@@ -3865,9 +4354,9 @@ Output:
 			<key>colorindex</key>
 			<integer>10</integer>
 			<key>xpos</key>
-			<integer>445</integer>
+			<integer>435</integer>
 			<key>ypos</key>
-			<integer>615</integer>
+			<integer>370</integer>
 		</dict>
 		<key>462F9926-34BA-48DF-B95B-102D7DB5FF96</key>
 		<dict>
@@ -3894,6 +4383,13 @@ Output:
 			<key>ypos</key>
 			<integer>1015</integer>
 		</dict>
+		<key>48E0E4F0-54FA-4552-B833-1BD106B9F47F</key>
+		<dict>
+			<key>xpos</key>
+			<integer>205</integer>
+			<key>ypos</key>
+			<integer>3645</integer>
+		</dict>
 		<key>4C57721B-F4C4-4F6F-874C-B788549A64F7</key>
 		<dict>
 			<key>xpos</key>
@@ -3915,7 +4411,7 @@ Output:
 			<key>note</key>
 			<string>Insert reference code at the cursor position</string>
 			<key>xpos</key>
-			<integer>670</integer>
+			<integer>715</integer>
 			<key>ypos</key>
 			<integer>3620</integer>
 		</dict>
@@ -3949,7 +4445,7 @@ Output:
 		<key>59533E11-B0A3-4DF5-93FB-C948F606D9FA</key>
 		<dict>
 			<key>xpos</key>
-			<integer>750</integer>
+			<integer>1115</integer>
 			<key>ypos</key>
 			<integer>3270</integer>
 		</dict>
@@ -3979,6 +4475,13 @@ Output:
 			<key>ypos</key>
 			<integer>1010</integer>
 		</dict>
+		<key>61211A73-4B81-4C53-B008-3B9909DBAA2D</key>
+		<dict>
+			<key>xpos</key>
+			<integer>25</integer>
+			<key>ypos</key>
+			<integer>660</integer>
+		</dict>
 		<key>614F07F6-4B10-43E0-A998-8C85952D75A3</key>
 		<dict>
 			<key>colorindex</key>
@@ -4000,9 +4503,16 @@ Output:
 			<key>colorindex</key>
 			<integer>10</integer>
 			<key>xpos</key>
-			<integer>640</integer>
+			<integer>630</integer>
 			<key>ypos</key>
-			<integer>735</integer>
+			<integer>490</integer>
+		</dict>
+		<key>64451213-087A-4D15-8350-03A2FC64E8B4</key>
+		<dict>
+			<key>xpos</key>
+			<integer>445</integer>
+			<key>ypos</key>
+			<integer>110</integer>
 		</dict>
 		<key>65933EB2-9F0E-4DA1-B167-598004DC247A</key>
 		<dict>
@@ -4015,14 +4525,23 @@ Output:
 			<key>ypos</key>
 			<integer>3645</integer>
 		</dict>
+		<key>674AC9B4-9D80-4F50-AC4F-155DD376F505</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>11</integer>
+			<key>xpos</key>
+			<integer>570</integer>
+			<key>ypos</key>
+			<integer>660</integer>
+		</dict>
 		<key>68BB707C-0DC1-4051-9436-2BF07D44B433</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>10</integer>
 			<key>xpos</key>
-			<integer>530</integer>
+			<integer>535</integer>
 			<key>ypos</key>
-			<integer>390</integer>
+			<integer>240</integer>
 		</dict>
 		<key>69580EB9-4634-4BEA-AE49-6881DDCD0D8C</key>
 		<dict>
@@ -4049,6 +4568,29 @@ Output:
 			<key>ypos</key>
 			<integer>3775</integer>
 		</dict>
+		<key>6DD3C6AF-A627-44A2-96BD-C96B3B5FF8D9</key>
+		<dict>
+			<key>xpos</key>
+			<integer>15</integer>
+			<key>ypos</key>
+			<integer>2980</integer>
+		</dict>
+		<key>724480E3-38C7-477D-A9EB-E8A03A9F3903</key>
+		<dict>
+			<key>xpos</key>
+			<integer>480</integer>
+			<key>ypos</key>
+			<integer>690</integer>
+		</dict>
+		<key>736C77FE-8B5F-40C8-BA10-ABDED61F755F</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>11</integer>
+			<key>xpos</key>
+			<integer>710</integer>
+			<key>ypos</key>
+			<integer>3140</integer>
+		</dict>
 		<key>789CB64F-E033-4297-ACC3-D392B6F76ACE</key>
 		<dict>
 			<key>xpos</key>
@@ -4059,9 +4601,9 @@ Output:
 		<key>78B54774-82A9-4ADE-B230-8C6A0F84FB07</key>
 		<dict>
 			<key>xpos</key>
-			<integer>200</integer>
+			<integer>190</integer>
 			<key>ypos</key>
-			<integer>720</integer>
+			<integer>475</integer>
 		</dict>
 		<key>79120EB7-2898-4817-8F77-113D77A83594</key>
 		<dict>
@@ -4075,25 +4617,16 @@ Output:
 			<key>colorindex</key>
 			<integer>1</integer>
 			<key>xpos</key>
-			<integer>445</integer>
+			<integer>435</integer>
 			<key>ypos</key>
-			<integer>735</integer>
-		</dict>
-		<key>83A078F5-6EBC-44DA-AFCB-F90B9769A55A</key>
-		<dict>
-			<key>colorindex</key>
-			<integer>11</integer>
-			<key>xpos</key>
-			<integer>345</integer>
-			<key>ypos</key>
-			<integer>195</integer>
+			<integer>490</integer>
 		</dict>
 		<key>842DFD13-5DC7-45D5-AED4-A6A728D68732</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>3</integer>
 			<key>xpos</key>
-			<integer>1795</integer>
+			<integer>2160</integer>
 			<key>ypos</key>
 			<integer>3090</integer>
 		</dict>
@@ -4102,7 +4635,7 @@ Output:
 			<key>note</key>
 			<string>check if line has already been referenced somewhere else</string>
 			<key>xpos</key>
-			<integer>1295</integer>
+			<integer>1660</integer>
 			<key>ypos</key>
 			<integer>3125</integer>
 		</dict>
@@ -4111,7 +4644,7 @@ Output:
 			<key>note</key>
 			<string>wait message</string>
 			<key>xpos</key>
-			<integer>575</integer>
+			<integer>620</integer>
 			<key>ypos</key>
 			<integer>3650</integer>
 		</dict>
@@ -4120,21 +4653,28 @@ Output:
 			<key>colorindex</key>
 			<integer>3</integer>
 			<key>xpos</key>
-			<integer>1030</integer>
+			<integer>1395</integer>
 			<key>ypos</key>
 			<integer>3365</integer>
 		</dict>
 		<key>8B05F86F-8E5D-42FE-A42B-EA6622A3CDE8</key>
 		<dict>
 			<key>xpos</key>
-			<integer>280</integer>
+			<integer>270</integer>
 			<key>ypos</key>
-			<integer>710</integer>
+			<integer>465</integer>
 		</dict>
 		<key>8B930A59-55D2-43C7-83B0-5A628036BCC5</key>
 		<dict>
 			<key>xpos</key>
 			<integer>515</integer>
+			<key>ypos</key>
+			<integer>3170</integer>
+		</dict>
+		<key>8D3C70EE-D09C-4C89-98A9-7A976C0FF92D</key>
+		<dict>
+			<key>xpos</key>
+			<integer>635</integer>
 			<key>ypos</key>
 			<integer>3170</integer>
 		</dict>
@@ -4167,7 +4707,7 @@ Input:
 Output:
 - File content</string>
 			<key>xpos</key>
-			<integer>1030</integer>
+			<integer>1395</integer>
 			<key>ypos</key>
 			<integer>3105</integer>
 		</dict>
@@ -4241,15 +4781,6 @@ Output:
 			<key>ypos</key>
 			<integer>1730</integer>
 		</dict>
-		<key>A77A1308-A928-4920-9889-C67E16B2E41A</key>
-		<dict>
-			<key>colorindex</key>
-			<integer>11</integer>
-			<key>xpos</key>
-			<integer>415</integer>
-			<key>ypos</key>
-			<integer>2875</integer>
-		</dict>
 		<key>AA1965B9-82F4-4AE1-ADC1-9286BAB8A1B2</key>
 		<dict>
 			<key>xpos</key>
@@ -4272,15 +4803,6 @@ Output:
 			<integer>1070</integer>
 			<key>ypos</key>
 			<integer>1030</integer>
-		</dict>
-		<key>C3914442-A188-4048-93A5-585CBACE7992</key>
-		<dict>
-			<key>colorindex</key>
-			<integer>11</integer>
-			<key>xpos</key>
-			<integer>615</integer>
-			<key>ypos</key>
-			<integer>3140</integer>
 		</dict>
 		<key>CA63B28D-B768-4533-90B5-6FB74A30DDD7</key>
 		<dict>
@@ -4338,9 +4860,9 @@ Output:
 			<key>note</key>
 			<string>Add journal entry to daily note</string>
 			<key>xpos</key>
-			<integer>15</integer>
+			<integer>20</integer>
 			<key>ypos</key>
-			<integer>390</integer>
+			<integer>240</integer>
 		</dict>
 		<key>E1EF37D8-51FB-4480-B58A-9DA1177AAD43</key>
 		<dict>
@@ -4357,6 +4879,13 @@ Output:
 			<integer>40</integer>
 			<key>ypos</key>
 			<integer>1410</integer>
+		</dict>
+		<key>E4D21BE0-2F0E-477C-BDFE-2685EE92D03F</key>
+		<dict>
+			<key>xpos</key>
+			<integer>110</integer>
+			<key>ypos</key>
+			<integer>2950</integer>
 		</dict>
 		<key>E5EE4FB1-D30F-4CCA-9E6E-FBA57A34B0ED</key>
 		<dict>
@@ -4379,9 +4908,18 @@ Output:
 		<key>E8AB648D-9478-4F54-AED0-BE6B2B88418E</key>
 		<dict>
 			<key>xpos</key>
-			<integer>195</integer>
+			<integer>200</integer>
 			<key>ypos</key>
-			<integer>420</integer>
+			<integer>270</integer>
+		</dict>
+		<key>E9E2FC54-A830-451D-9160-41F021313F4B</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>11</integer>
+			<key>xpos</key>
+			<integer>530</integer>
+			<key>ypos</key>
+			<integer>80</integer>
 		</dict>
 		<key>E9EE3256-7694-44A4-B076-BDDAC5002701</key>
 		<dict>
@@ -4390,9 +4928,9 @@ Output:
 			<key>note</key>
 			<string>Open note in Obsidian</string>
 			<key>xpos</key>
-			<integer>415</integer>
+			<integer>475</integer>
 			<key>ypos</key>
-			<integer>2730</integer>
+			<integer>2725</integer>
 		</dict>
 		<key>EE2F54FB-7F52-47C0-BAB5-C22C3F7EB12B</key>
 		<dict>
@@ -4420,7 +4958,7 @@ https://github.com/dancromartie/doc-similarity-lite</string>
 			<key>note</key>
 			<string>insert reference code</string>
 			<key>xpos</key>
-			<integer>1490</integer>
+			<integer>1855</integer>
 			<key>ypos</key>
 			<integer>3245</integer>
 		</dict>
@@ -4447,7 +4985,7 @@ https://github.com/dancromartie/doc-similarity-lite</string>
 		<key>FCB22FD8-98D4-407E-9E3D-68F07EE612FC</key>
 		<dict>
 			<key>xpos</key>
-			<integer>930</integer>
+			<integer>1295</integer>
 			<key>ypos</key>
 			<integer>3135</integer>
 		</dict>
@@ -4468,11 +5006,20 @@ Output:
 			<key>ypos</key>
 			<integer>1010</integer>
 		</dict>
+		<key>FFB447A7-0A60-4D29-AB40-FF00221638AF</key>
+		<dict>
+			<key>xpos</key>
+			<integer>400</integer>
+			<key>ypos</key>
+			<integer>2905</integer>
+		</dict>
 	</dict>
 	<key>variables</key>
 	<dict>
 		<key>daily_folder</key>
 		<string>Notas Diárias</string>
+		<key>external_editor</key>
+		<string>~/Applications/Visual Studio Code.app</string>
 		<key>journal_tag</key>
 		<string>diário</string>
 		<key>searches_heading</key>
@@ -4484,9 +5031,9 @@ Output:
 		<key>tasks_heading</key>
 		<string>Em curso</string>
 		<key>title</key>
-		<string>How to Check if a File or Directory Exists in Bash | Linuxize</string>
+		<string>Lansky Adult Sharpening Set Sharpening Products, Multi-Colour, One Size, multicolour: Amazon.de: Sport &amp; Freizeit</string>
 		<key>url</key>
-		<string>https://linuxize.com/post/bash-check-if-file-exists/</string>
+		<string>https://www.amazon.de/-/en/gp/product/B000B8IEA4/ref=ox_sc_act_title_1?smid=A30Q827TJCY159&amp;psc=1</string>
 		<key>vault_name</key>
 		<string>Notas</string>
 		<key>vault_path</key>
@@ -4497,16 +5044,14 @@ Output:
 		<string>tasks_heading</string>
 		<string>task_tag</string>
 		<string>daily_folder</string>
-		<string>vault_path</string>
-		<string>journal_tag</string>
-		<string>title</string>
 		<string>searches_heading</string>
+		<string>journal_tag</string>
 		<string>tasks_file</string>
 		<string>vault_name</string>
-		<string>url</string>
+		<string>vault_path</string>
 	</array>
 	<key>version</key>
-	<string>2.3.0</string>
+	<string>2.3.1</string>
 	<key>webaddress</key>
 	<string>https://github.com/macedotavares/obsidian-utilities</string>
 </dict>
