@@ -3167,7 +3167,7 @@ echo -n "$(cat "$expanded")"</string>
 				<key>spaces</key>
 				<string></string>
 				<key>url</key>
-				<string>obsidian:///{query}</string>
+				<string>obsidian://{query}</string>
 				<key>utf8</key>
 				<true/>
 			</dict>
